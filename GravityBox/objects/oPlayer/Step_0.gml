@@ -53,6 +53,13 @@ switch(gravityDir)
 		break;
 }
 
+// Clamp speed
+if(hsp > maxhsp) hsp = maxhsp;
+if(hsp < -maxhsp) hsp = -maxhsp;
+if(vsp > maxvsp) vsp = maxvsp;
+if(vsp < -maxvsp) vsp = -maxvsp;
+
+
 // x collision
 if(place_meeting(x + hsp, y, oWall)){
 	while(!place_meeting(x + sign(hsp), y, oWall)){

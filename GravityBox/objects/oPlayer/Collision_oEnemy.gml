@@ -1,3 +1,4 @@
-/// @description Restart Game
+/// @description Spawn death object
 
-game_restart();
+instance_create_layer(x,y,"Instances",oPlayerDeath);
+instance_destroy();
