@@ -19,6 +19,7 @@ if(key_gravup) gravityDir = "up";
 switch(gravityDir)
 {
 	case "down":
+		image_index = 0;
 		// Calculate movement	
 		var move = key_right - key_left;
 		if( hsp > 0.25) hsp -= 0.1;
@@ -28,6 +29,7 @@ switch(gravityDir)
 		vsp = vsp + grv;
 		break;
 	case "up":
+		image_index = 1;
 		// Calculate movement	
 		var move = key_right - key_left;
 		if( hsp > 0.25) hsp -= 0.1;
@@ -36,6 +38,7 @@ switch(gravityDir)
 		vsp = vsp - grv;
 		break;
 	case "right":
+		image_index = 3;
 		// Calculate movement	
 		var move = key_down - key_up;
 		if( vsp > 0.25) vsp -= 0.1;
@@ -44,6 +47,7 @@ switch(gravityDir)
 		hsp = hsp + grv;
 		break;
 	case "left":
+		image_index = 2;
 		// Calculate movement	
 		var move = key_down - key_up;
 		if( vsp > 0.25) vsp -= 0.1;
