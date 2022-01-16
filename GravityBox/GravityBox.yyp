@@ -1,6 +1,8 @@
 {
   "resources": [
     {"id":{"name":"fUI","path":"fonts/fUI/fUI.yy",},"order":0,},
+    {"id":{"name":"sCoinVFX","path":"sprites/sCoinVFX/sCoinVFX.yy",},"order":4,},
+    {"id":{"name":"oCoinVFX","path":"objects/oCoinVFX/oCoinVFX.yy",},"order":6,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":0,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
