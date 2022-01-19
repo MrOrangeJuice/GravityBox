@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sCoinVFX",
-    "path": "sprites/sCoinVFX/sCoinVFX.yy",
+    "name": "sCoinNewVFX",
+    "path": "sprites/sCoinNewVFX/sCoinNewVFX.yy",
   },
   "solid": false,
   "visible": true,
