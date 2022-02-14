@@ -8,6 +8,7 @@
     {"id":{"name":"sTileset","path":"sprites/sTileset/sTileset.yy",},"order":5,},
     {"id":{"name":"oCoinVFX","path":"objects/oCoinVFX/oCoinVFX.yy",},"order":6,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},"order":1,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":0,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":2,},
@@ -44,6 +45,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},},
     {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
   ],
   "Folders": [
@@ -70,7 +72,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.1.0.609",
+    "IDEVersion": "2022.1.1.610",
   },
   "resourceVersion": "1.4",
   "name": "GravityBox",
