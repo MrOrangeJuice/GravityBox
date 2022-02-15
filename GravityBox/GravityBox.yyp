@@ -21,6 +21,7 @@
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},"order":11,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":2,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":4,},
+    {"id":{"name":"oTitle","path":"objects/oTitle/oTitle.yy",},"order":8,},
     {"id":{"name":"sCoinNew","path":"sprites/sCoinNew/sCoinNew.yy",},"order":8,},
     {"id":{"name":"snd_Death","path":"sounds/snd_Death/snd_Death.yy",},"order":1,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":3,},
@@ -46,8 +47,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},},
     {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
+    {"roomId":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
