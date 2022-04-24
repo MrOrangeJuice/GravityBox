@@ -1,3 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_text(display_get_gui_width()/2,0,global.score);
+
+// Left UI
+draw_text(56,80,"Time:");
+draw_text(56,96,global.score);
+draw_text(56,144,"Coins:");
+draw_text(56,160,global.score);
+
+// Right UI
+draw_text(424,80,"Score:");
+draw_text(424,96,global.score);
+draw_text(424,144,"Record:");
+draw_text(424,160,global.highScore);
