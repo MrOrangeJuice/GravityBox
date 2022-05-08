@@ -3,9 +3,10 @@
 
 // Left UI
 draw_text(56,80,"Time:");
-draw_text(56,96,global.score);
+timeString = string_format((global.time / room_speed), 0, 2);
+draw_text(56,96,timeString);
 draw_text(56,144,"Coins:");
-draw_text(56,160,global.score);
+draw_text(56,160,global.coins);
 
 // Right UI
 draw_text(424,80,"Score:");

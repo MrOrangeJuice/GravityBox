@@ -1,5 +1,6 @@
 /// Check for restart
 if(keyboard_check_pressed(vk_space))
 {
-	game_restart();
+	Restart();
+	instance_destroy();
 }

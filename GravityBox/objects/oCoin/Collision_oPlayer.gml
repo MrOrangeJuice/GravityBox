@@ -1,5 +1,6 @@
 /// @description Collide with player
-global.score++;
+global.score += 10;
+global.coins++;
 // Increment high score if necessary
 if(global.highScore < global.score)
 {
