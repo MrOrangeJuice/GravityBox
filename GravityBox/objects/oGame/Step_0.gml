@@ -3,7 +3,7 @@
 if(global.alive) global.time++;
 
 // Increment score every second
-if(global.time % 60 == 0)
+if(global.time % 60 == 0 && global.alive)
 {
 	global.score++;	
 }
