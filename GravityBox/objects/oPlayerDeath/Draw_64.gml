@@ -1,2 +1,3 @@
 /// @description Draw Death Text
-draw_text(display_get_gui_width()/2,96,string(messages[messageIndex]) + "\nYour Score Was: " + string(global.score) + "\nPress Space to Restart");
+draw_text(display_get_gui_width()/2,80,string(messages[messageIndex]));
+draw_text(display_get_gui_width()/2,96,"Your Score Was: " + string(global.score));

@@ -23,6 +23,7 @@
     {"id":{"name":"sHomeButton","path":"sprites/sHomeButton/sHomeButton.yy",},"order":1,},
     {"id":{"name":"sPlayerDeath","path":"sprites/sPlayerDeath/sPlayerDeath.yy",},"order":6,},
     {"id":{"name":"oExitButton","path":"objects/oExitButton/oExitButton.yy",},"order":10,},
+    {"id":{"name":"oRetryButton","path":"objects/oRetryButton/oRetryButton.yy",},"order":11,},
     {"id":{"name":"oPlayerDeath","path":"objects/oPlayerDeath/oPlayerDeath.yy",},"order":5,},
     {"id":{"name":"sExitButton","path":"sprites/sExitButton/sExitButton.yy",},"order":0,},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":3,},

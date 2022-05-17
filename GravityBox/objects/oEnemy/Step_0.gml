@@ -1,3 +1,3 @@
 /// @description Increase speed
-speed += 0.001;
+if (global.alive) speed += 0.001;
 move_bounce_solid(0);

@@ -11,6 +11,10 @@ function Restart(){
 	instance_destroy(oEnemy);
 	instance_destroy(oCoin);
 	
+	// Destroy UI
+	instance_destroy(oPlayerDeath);
+	instance_destroy(oRetryButton);
+	
 	// Spawn entities
 	instance_create_layer(240,144,"Instances",oPlayer);
 	
