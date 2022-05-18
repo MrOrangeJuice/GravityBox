@@ -14,6 +14,8 @@ function Restart(){
 	// Destroy UI
 	instance_destroy(oPlayerDeath);
 	instance_destroy(oRetryButton);
+	instance_destroy(oShopButton);
+	instance_destroy(oHomeButton);
 	
 	// Spawn entities
 	instance_create_layer(240,144,"Instances",oPlayer);
