@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sOptionsButton",
-    "path": "sprites/sOptionsButton/sOptionsButton.yy",
+    "name": "sDeleteSaveButton",
+    "path": "sprites/sDeleteSaveButton/sDeleteSaveButton.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oOptionsButton",
+  "name": "oDeleteSaveButton",
   "tags": [],
   "resourceType": "GMObject",
 }

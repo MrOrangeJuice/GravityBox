@@ -1,8 +1,8 @@
 /// @description  Hover and Click
 
-if (position_meeting(mouse_x,mouse_y,oOptionsButton) && global.mouse)
+if (position_meeting(mouse_x,mouse_y,oDeleteSaveButton) && global.mouse)
 {
-    if(!soundPlayed)
+	if(!soundPlayed)
 	{
 		audio_play_sound(snd_MenuMove,5,false);
 		soundPlayed = true;
@@ -11,7 +11,11 @@ if (position_meeting(mouse_x,mouse_y,oOptionsButton) && global.mouse)
 	if(mouse_check_button_pressed(mb_left))
 	{
 		audio_play_sound(snd_MenuSelect,5,false);
-		room_goto(rOptions);
+		if(file_exists("savedata.ini")){
+			file_delete("savedata.ini");
+		}	
+		global.highScore = 0;
+		global.coins = 0;
 	}
 }
 else

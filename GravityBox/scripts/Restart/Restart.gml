@@ -1,7 +1,6 @@
 function Restart(){
 
 	global.score = 0;
-	global.coins = 0;
 	global.time = 0;
 	global.alive = true;
 	
