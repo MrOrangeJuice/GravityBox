@@ -9,6 +9,9 @@ global.alive = true;
 global.mouse = true;
 prevMousePosX = mouse_x;
 prevMousePosY = mouse_y;
+
+Load();
+
 display_set_gui_size(480,270);
 draw_set_font(fUI);
 draw_set_color(c_white);

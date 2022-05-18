@@ -1,6 +1,6 @@
 /// @description  Hover and Click
 
-if (position_meeting(mouse_x,mouse_y,oHomeButton))
+if (position_meeting(mouse_x,mouse_y,oHomeButton) && global.mouse)
 {
     if(!soundPlayed)
 	{

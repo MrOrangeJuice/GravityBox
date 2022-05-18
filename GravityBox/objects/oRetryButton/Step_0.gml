@@ -1,6 +1,6 @@
 /// @description  Hover and Click
 
-if (position_meeting(mouse_x,mouse_y,oRetryButton))
+if (position_meeting(mouse_x,mouse_y,oRetryButton) && global.mouse)
 {
     if(!soundPlayed)
 	{
