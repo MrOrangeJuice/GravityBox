@@ -3,7 +3,7 @@
 image_speed = 0;
 soundPlayed = false;
 
-if(window_get_fullscreen())
+if(global.fullscreen)
 {
 	sprite_index = sFullscreenOnButton;	
 }

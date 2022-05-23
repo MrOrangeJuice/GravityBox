@@ -11,14 +11,17 @@ if (position_meeting(mouse_x,mouse_y,oFullscreenButton) && global.mouse)
 	if(mouse_check_button_pressed(mb_left))
 	{
 		audio_play_sound(snd_MenuSelect,5,false);
-		if(window_get_fullscreen())
+		if(global.fullscreen)
 		{
 			window_set_fullscreen(false);	
+			global.fullscreen = false;
 		}
-		else if(!window_get_fullscreen())
+		else if(!global.fullscreen)
 		{
 			window_set_fullscreen(true);	
+			global.fullscreen = true;
 		}
+		Save();
 	}
 }
 else
@@ -27,7 +30,7 @@ else
     image_index = 0;
 }
 
-if(window_get_fullscreen())
+if(global.fullscreen)
 {
 	sprite_index = sFullscreenOnButton;	
 }

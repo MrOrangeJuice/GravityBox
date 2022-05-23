@@ -7,10 +7,19 @@ global.time = 0;
 global.alive = true;
 
 global.mouse = true;
+global.fullscreen = false;
+global.fastStart = false;
+
 prevMousePosX = mouse_x;
 prevMousePosY = mouse_y;
 
 Load();
+
+// Set fullscreen if loaded in
+if(global.fullscreen)
+{
+	window_set_fullscreen(true);	
+}
 
 display_set_gui_size(480,270);
 draw_set_font(fUI);

@@ -16,6 +16,7 @@ if (position_meeting(mouse_x,mouse_y,oDeleteSaveButton) && global.mouse)
 		}	
 		global.highScore = 0;
 		global.coins = 0;
+		Save();
 	}
 }
 else
