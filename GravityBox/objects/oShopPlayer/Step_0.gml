@@ -14,8 +14,15 @@ switch(playerNum)
 vsp += grv;
 
 // y collision
-if (place_meeting(x,y+vsp,oWall)){
-	while (!place_meeting(x,y+sign(vsp),oWall)){
+if (place_meeting(x,y+vsp,oWall))
+{
+	if(!soundPlayed) 
+	{
+		audio_play_sound(snd_Land,5,false);
+		soundPlayed = true;
+	}
+	while (!place_meeting(x,y+sign(vsp),oWall))
+	{
 		y = y + sign(vsp);
 	}
 	vsp = 0;

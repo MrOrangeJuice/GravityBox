@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sFullscreenOffButton","path":"sprites/sFullscreenOffButton/sFullscreenOffButton.yy",},"order":7,},
+    {"id":{"name":"oBuyButton","path":"objects/oBuyButton/oBuyButton.yy",},"order":9,},
     {"id":{"name":"sPlayerGreenIcon","path":"sprites/sPlayerGreenIcon/sPlayerGreenIcon.yy",},"order":0,},
     {"id":{"name":"sPlayerBlue","path":"sprites/sPlayerBlue/sPlayerBlue.yy",},"order":0,},
     {"id":{"name":"oPlayerDeathSprite","path":"objects/oPlayerDeathSprite/oPlayerDeathSprite.yy",},"order":8,},
@@ -18,6 +19,7 @@
     {"id":{"name":"sPlayerBlueIcon","path":"sprites/sPlayerBlueIcon/sPlayerBlueIcon.yy",},"order":1,},
     {"id":{"name":"sDeleteSaveButton","path":"sprites/sDeleteSaveButton/sDeleteSaveButton.yy",},"order":8,},
     {"id":{"name":"snd_MenuMove","path":"sounds/snd_MenuMove/snd_MenuMove.yy",},"order":3,},
+    {"id":{"name":"snd_Land","path":"sounds/snd_Land/snd_Land.yy",},"order":4,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sOptionsButton","path":"sprites/sOptionsButton/sOptionsButton.yy",},"order":2,},
     {"id":{"name":"oOptionsButton","path":"objects/oOptionsButton/oOptionsButton.yy",},"order":2,},
@@ -35,6 +37,7 @@
     {"id":{"name":"Save","path":"scripts/Save/Save.yy",},"order":1,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":2,},
     {"id":{"name":"sShopButton","path":"sprites/sShopButton/sShopButton.yy",},"order":4,},
+    {"id":{"name":"sBuyButton","path":"sprites/sBuyButton/sBuyButton.yy",},"order":11,},
     {"id":{"name":"oDeleteSaveButton","path":"objects/oDeleteSaveButton/oDeleteSaveButton.yy",},"order":7,},
     {"id":{"name":"sRetryButton","path":"sprites/sRetryButton/sRetryButton.yy",},"order":3,},
     {"id":{"name":"sHomeButton","path":"sprites/sHomeButton/sHomeButton.yy",},"order":1,},
@@ -64,7 +67,9 @@
     {"id":{"name":"sCoinNew","path":"sprites/sCoinNew/sCoinNew.yy",},"order":8,},
     {"id":{"name":"snd_Death","path":"sounds/snd_Death/snd_Death.yy",},"order":1,},
     {"id":{"name":"oFastStartButton","path":"objects/oFastStartButton/oFastStartButton.yy",},"order":8,},
+    {"id":{"name":"sBuyButtonPoor","path":"sprites/sBuyButtonPoor/sBuyButtonPoor.yy",},"order":12,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":3,},
+    {"id":{"name":"sUIShellShop","path":"sprites/sUIShellShop/sUIShellShop.yy",},"order":28,},
     {"id":{"name":"sCoverImage","path":"sprites/sCoverImage/sCoverImage.yy",},"order":13,},
     {"id":{"name":"oStartButton","path":"objects/oStartButton/oStartButton.yy",},"order":6,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},

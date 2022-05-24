@@ -10,7 +10,12 @@ global.mouse = true;
 global.fullscreen = false;
 global.fastStart = false;
 
+// Shop
 global.currentShopSelection = 0;
+global.playerSelection = 0;
+global.shopPrices = [0, 20];
+global.shopOwnership = [true,false];
+global.buyHover = false;
 
 prevMousePosX = mouse_x;
 prevMousePosY = mouse_y;
