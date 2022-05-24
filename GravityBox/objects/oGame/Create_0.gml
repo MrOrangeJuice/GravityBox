@@ -10,6 +10,8 @@ global.mouse = true;
 global.fullscreen = false;
 global.fastStart = false;
 
+global.currentShopSelection = 0;
+
 prevMousePosX = mouse_x;
 prevMousePosY = mouse_y;
 

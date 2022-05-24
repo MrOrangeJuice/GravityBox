@@ -1,6 +1,9 @@
-/// @description  Hover and Click
-
-if (position_meeting(mouse_x,mouse_y,oShopButton) && global.mouse)
+/// @description Hover and Click
+if (global.currentShopSelection == selectionNum)
+{
+	image_index = 2;
+}
+else if (position_meeting(mouse_x,mouse_y,id) && global.mouse)
 {
     if(!soundPlayed)
 	{
@@ -11,7 +14,8 @@ if (position_meeting(mouse_x,mouse_y,oShopButton) && global.mouse)
 	if(mouse_check_button_pressed(mb_left))
 	{
 		audio_play_sound(snd_MenuSelect,5,false);
-		room_goto(rShop);	
+		global.currentShopSelection = selectionNum;
+		SpawnShopPlayer();
 	}
 }
 else
