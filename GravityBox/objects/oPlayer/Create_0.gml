@@ -9,3 +9,14 @@ maxvsp = 5;
 //walksp = 2;
 gravityDir = "down";
 randomize(); // Set new random seed
+
+// Swap sprite
+switch(global.playerSelection)
+{
+	case 0:
+		sprite_index = sPlayer;
+		break;
+	case 1:
+		sprite_index = sPlayerBlue;
+		break;
+}
