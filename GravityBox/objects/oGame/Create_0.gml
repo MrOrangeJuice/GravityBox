@@ -20,7 +20,9 @@ global.buyHover = false;
 prevMousePosX = mouse_x;
 prevMousePosY = mouse_y;
 
-Load();
+if(file_exists("savedata.ini")){
+	Load();
+}
 
 // Set fullscreen if loaded in
 if(global.fullscreen)

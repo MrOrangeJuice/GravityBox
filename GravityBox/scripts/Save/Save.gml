@@ -4,10 +4,9 @@ function Save(){
 	ini_write_real("savegame", "coins", global.coins);
 	ini_write_real("savegame", "fullscreen", global.fullscreen);
 	ini_write_real("savegame", "fastStart", global.fastStart);
-	/*
 	ini_write_real("savegame", "currentShopSelection", global.currentShopSelection);
 	ini_write_real("savegame", "playerSelection", global.playerSelection);
-	ini_write_real("savegame", "shopOwnership", global.shopOwnership);
-	*/
+	ini_write_real("savegame", "shopOwnership0", global.shopOwnership[0]);
+	ini_write_real("savegame", "shopOwnership1", global.shopOwnership[1]);
 	ini_close();
 }
