@@ -18,7 +18,7 @@ if (position_meeting(mouse_x,mouse_y,oDeleteSaveButton) && global.mouse)
 		global.coins = 0;
 		global.currentShopSelection = 0;
 		global.playerSelection = 0;
-		global.shopOwnership = [true,false];
+		global.shopOwnership = [true,false,false,false,false,false];
 		Save();
 	}
 }

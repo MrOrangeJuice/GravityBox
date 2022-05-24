@@ -8,6 +8,18 @@ switch(playerNum)
 	case 1:
 		sprite_index = sPlayerBlue;
 		break;
+	case 2:
+		sprite_index = sPlayerYellow;
+		break;
+	case 3:
+		sprite_index = sPlayerPurple;
+		break;
+	case 4:
+		sprite_index = sPlayerOrange;
+		break;
+	case 5:
+		sprite_index = sPlayerGray;
+		break;
 }
 
 // Apply graivty

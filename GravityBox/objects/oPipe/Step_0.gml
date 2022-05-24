@@ -2,6 +2,6 @@
 
 if(keyboard_check_pressed(vk_backspace))
 {
-	global.coins += 10;
+	global.coins += 50;
 	Save();
 }

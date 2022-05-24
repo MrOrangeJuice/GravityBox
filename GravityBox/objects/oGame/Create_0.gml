@@ -13,8 +13,8 @@ global.fastStart = false;
 // Shop
 global.currentShopSelection = 0;
 global.playerSelection = 0;
-global.shopPrices = [0, 20];
-global.shopOwnership = [true,false];
+global.shopPrices = [0, 20, 50, 50, 50, 50];
+global.shopOwnership = [true,false,false,false,false,false];
 global.buyHover = false;
 
 prevMousePosX = mouse_x;
