@@ -20,7 +20,7 @@ if (position_meeting(mouse_x,mouse_y,oBuyButton) && global.mouse)
 			}
 			else
 			{
-				
+				audio_play_sound(snd_MenuSelect,5,false);
 			}
 			Save();
 		}
@@ -31,11 +31,11 @@ if (position_meeting(mouse_x,mouse_y,oBuyButton) && global.mouse)
 			{
 				global.shopOwnership[global.currentShopSelection] = true;	
 				global.coins -= global.shopPrices[global.currentShopSelection];
-				audio_play_sound(snd_MenuSelect,5,false);
+				audio_play_sound(snd_Buy,5,false);
 			}
 			else
 			{
-				
+				audio_play_sound(snd_Reject,5,false);
 			}
 			Save();
 		}

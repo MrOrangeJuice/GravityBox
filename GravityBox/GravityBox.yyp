@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"snd_Reject","path":"sounds/snd_Reject/snd_Reject.yy",},"order":5,},
     {"id":{"name":"sFullscreenOffButton","path":"sprites/sFullscreenOffButton/sFullscreenOffButton.yy",},"order":7,},
     {"id":{"name":"oBuyButton","path":"objects/oBuyButton/oBuyButton.yy",},"order":8,},
     {"id":{"name":"sPlayerGreenIcon","path":"sprites/sPlayerGreenIcon/sPlayerGreenIcon.yy",},"order":0,},
@@ -14,6 +15,7 @@
     {"id":{"name":"SpawnShopPlayer","path":"scripts/SpawnShopPlayer/SpawnShopPlayer.yy",},"order":3,},
     {"id":{"name":"sEnemyBig","path":"sprites/sEnemyBig/sEnemyBig.yy",},"order":16,},
     {"id":{"name":"oPipe","path":"objects/oPipe/oPipe.yy",},"order":14,},
+    {"id":{"name":"snd_Buy","path":"sounds/snd_Buy/snd_Buy.yy",},"order":6,},
     {"id":{"name":"sTileset","path":"sprites/sTileset/sTileset.yy",},"order":5,},
     {"id":{"name":"oCoinVFX","path":"objects/oCoinVFX/oCoinVFX.yy",},"order":7,},
     {"id":{"name":"sEquippedButton","path":"sprites/sEquippedButton/sEquippedButton.yy",},"order":14,},
