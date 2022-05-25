@@ -5,6 +5,8 @@ global.highScore = 0;
 global.coins = 0;
 global.time = 0;
 global.alive = true;
+global.coinValue = 1;
+global.prevCoinValue = 1;
 
 global.mouse = true;
 global.fullscreen = false;
@@ -14,6 +16,7 @@ global.fastStart = false;
 global.currentShopSelection = 0;
 global.playerSelection = 0;
 global.shopPrices = [0, 20, 50, 50, 50, 50];
+global.skinNames = ["Classic", "Perfect Blue", "Banana", "Grape", "Creamsicle", "Monochrome"];
 global.shopOwnership = [true,false,false,false,false,false];
 global.buyHover = false;
 
@@ -29,6 +32,8 @@ if(global.fullscreen)
 {
 	window_set_fullscreen(true);	
 }
+
+randomize();
 
 display_set_gui_size(480,270);
 draw_set_font(fUI);

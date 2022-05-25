@@ -6,6 +6,9 @@ draw_set_color(c_black);
 draw_text(56,194,"Coins:");
 draw_text(56,210,global.coins);
 
+// Draw skin name
+draw_text(400,32,global.skinNames[global.currentShopSelection]);
+
 // Draw Price
 if(!global.shopOwnership[global.currentShopSelection])
 {

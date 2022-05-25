@@ -3,6 +3,8 @@ function Restart(){
 	global.score = 0;
 	global.time = 0;
 	global.alive = true;
+	global.coinValue = 1;
+	global.prevCoinValue = 1;
 	
 	// Destroy entites
 	instance_destroy(oEnemy);
@@ -23,5 +25,5 @@ function Restart(){
 	instance_create_layer(320,208,"Instances",oEnemy);
 	
 	// Spawn first coin
-	instance_create_layer(random_range(112,368),random_range(16,254),"Coins",oCoin);
+	instance_create_layer(random_range(120,360),random_range(24,246),"Coins",oCoin);
 }
