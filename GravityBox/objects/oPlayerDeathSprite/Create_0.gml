@@ -23,4 +23,10 @@ switch(global.playerSelection)
 	case 5:
 		sprite_index = sPlayerGrayDeath;
 		break;
+	case 6:
+		sprite_index = sPlayerCitrusDeath;
+		break;
+	case 7:
+		sprite_index = sPlayerFernDeath;
+		break;
 }
