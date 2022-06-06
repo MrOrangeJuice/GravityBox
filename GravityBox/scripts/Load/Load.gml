@@ -12,5 +12,11 @@ function Load(){
 	global.shopOwnership[3] = ini_read_real("savegame", "shopOwnership3", 0);
 	global.shopOwnership[4] = ini_read_real("savegame", "shopOwnership4", 0);
 	global.shopOwnership[5] = ini_read_real("savegame", "shopOwnership5", 0);
+	global.shopOwnership[6] = ini_read_real("savegame", "shopOwnership6", 0);
+	global.shopOwnership[7] = ini_read_real("savegame", "shopOwnership7", 0);
+	global.shopOwnership[8] = ini_read_real("savegame", "shopOwnership8", 0);
+	global.shopOwnership[9] = ini_read_real("savegame", "shopOwnership9", 0);
+	global.shopOwnership[10] = ini_read_real("savegame", "shopOwnership10", 0);
+	global.shopOwnership[11] = ini_read_real("savegame", "shopOwnership11", 0);
 	ini_close();
 }

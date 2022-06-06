@@ -12,5 +12,11 @@ function Save(){
 	ini_write_real("savegame", "shopOwnership3", global.shopOwnership[3]);
 	ini_write_real("savegame", "shopOwnership4", global.shopOwnership[4]);
 	ini_write_real("savegame", "shopOwnership5", global.shopOwnership[5]);
+	ini_write_real("savegame", "shopOwnership6", global.shopOwnership[6]);
+	ini_write_real("savegame", "shopOwnership7", global.shopOwnership[7]);
+	ini_write_real("savegame", "shopOwnership8", global.shopOwnership[8]);
+	ini_write_real("savegame", "shopOwnership9", global.shopOwnership[9]);
+	ini_write_real("savegame", "shopOwnership10", global.shopOwnership[10]);
+	ini_write_real("savegame", "shopOwnership11", global.shopOwnership[11]);
 	ini_close();
 }

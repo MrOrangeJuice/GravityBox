@@ -29,4 +29,16 @@ switch(global.playerSelection)
 	case 7:
 		sprite_index = sPlayerFernDeath;
 		break;
+	case 8:
+		sprite_index = sPlayerHeartDeath;
+		break;
+	case 9:
+		sprite_index = sPlayerGameBoyDeath;
+		break;
+	case 10:
+		sprite_index = sPlayer2Death;
+		break;
+	case 11:
+		sprite_index = sPlayerInverseDeath;
+		break;
 }

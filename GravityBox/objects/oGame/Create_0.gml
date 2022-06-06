@@ -15,9 +15,9 @@ global.fastStart = false;
 // Shop
 global.currentShopSelection = 0;
 global.playerSelection = 0;
-global.shopPrices = [0, 20, 50, 50, 50, 50];
-global.skinNames = ["Classic", "Perfect Blue", "Banana", "Grape", "Creamsicle", "Monochrome"];
-global.shopOwnership = [true,false,false,false,false,false];
+global.shopPrices = [0, 20, 50, 50, 50, 50, 100, 150, 100, 150, 150, 200];
+global.skinNames = ["Classic", "Perfect Blue", "Banana", "Grape", "Creamsicle", "Monochrome", "Super Citrus", "Fern", "Lil' Cupid", "DMGravity", "Player 2", "Opposite Day"];
+global.shopOwnership = [true,false,false,false,false,false,false,false,false,false,false,false];
 global.buyHover = false;
 
 prevMousePosX = mouse_x;
