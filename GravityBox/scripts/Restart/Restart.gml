@@ -26,4 +26,7 @@ function Restart(){
 	
 	// Spawn first coin
 	instance_create_layer(random_range(120,360),random_range(24,246),"Coins",oCoin);
+	
+	// Spawn starting timer if fast start is disabled
+	if(!global.fastStart) instance_create_layer(240,135,"Instances",oStart);
 }

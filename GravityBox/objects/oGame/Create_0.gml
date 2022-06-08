@@ -12,6 +12,8 @@ global.mouse = true;
 global.fullscreen = false;
 global.fastStart = false;
 
+global.paused = false;
+
 // Shop
 global.currentShopSelection = 0;
 global.playerSelection = 0;
