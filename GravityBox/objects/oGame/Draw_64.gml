@@ -18,4 +18,4 @@ if(room == rGame)
 }
 
 // Draw Cursor
-if(global.mouse) draw_sprite(sCursor,0,mouse_x,mouse_y);
+if(global.mouse) draw_sprite(sCursor,0,global.mouseX,global.mouseY);

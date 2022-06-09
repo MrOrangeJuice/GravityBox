@@ -4,13 +4,19 @@ global.score = 0;
 global.highScore = 0;
 global.coins = 0;
 global.time = 0;
-global.alive = true;
+global.alive = false;
 global.coinValue = 1;
 global.prevCoinValue = 1;
 
 global.mouse = true;
 global.fullscreen = false;
 global.fastStart = false;
+global.controller = false;
+
+// Mouse
+global.mouseX = 0;
+global.mouseY = 0;
+global.mouseControllerSpeed = 5;
 
 global.paused = false;
 
@@ -22,8 +28,11 @@ global.skinNames = ["Classic", "Perfect Blue", "Banana", "Grape", "Creamsicle", 
 global.shopOwnership = [true,false,false,false,false,false,false,false,false,false,false,false];
 global.buyHover = false;
 
-prevMousePosX = mouse_x;
-prevMousePosY = mouse_y;
+prevMousePosX = global.mouseX;
+prevMousePosY = global.mouseY;
+
+prevActualMousePosX = mouse_x;
+prevActualMousePosY = mouse_y;
 
 if(file_exists("savedata.ini")){
 	Load();

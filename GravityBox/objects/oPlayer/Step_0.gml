@@ -6,6 +6,39 @@ key_gravright = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("
 key_gravdown = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
 key_gravup = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
 
+if (key_gravleft || key_gravright || key_gravdown || key_gravdown)
+{
+	global.controller = 0;	
+}
+
+if (gamepad_axis_value(0,gp_axislh) < -0.4 || gamepad_button_check(0,gp_padl) || gamepad_axis_value(4,gp_axislh) < -0.4 || gamepad_button_check(4,gp_padl))
+{
+	key_gravleft = 1;
+	global.controller = 1;
+	global.mouse = 0;
+}
+
+if (gamepad_axis_value(0,gp_axislh) > 0.4 || gamepad_button_check(0,gp_padr) || gamepad_axis_value(4,gp_axislh) > 0.4 || gamepad_button_check(4,gp_padr))
+{
+	key_gravright = 1;
+	global.controller = 1;
+	global.mouse = 0;
+}
+
+if (gamepad_axis_value(0,gp_axislv) > 0.4 || gamepad_button_check(0,gp_padd) || gamepad_axis_value(4,gp_axislv) > 0.4 || gamepad_button_check(4,gp_padd))
+{
+	key_gravdown = 1;
+	global.controller = 1;
+	global.mouse = 0;
+}
+
+if (gamepad_axis_value(0,gp_axislv) < -0.4 || gamepad_button_check(0,gp_padu) || gamepad_axis_value(0,gp_axislv) < -0.4 || gamepad_button_check(4,gp_padu))
+{
+	key_gravup = 1;
+	global.controller = 1;
+	global.mouse = 0;
+}
+
 if(key_gravleft) gravityDir = "left";
 if(key_gravright) gravityDir = "right";
 if(key_gravdown) gravityDir = "down";
