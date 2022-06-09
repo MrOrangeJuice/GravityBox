@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "sTitle",
-    "path": "sprites/sTitle/sTitle.yy",
+    "name": "sTitleNewShaded",
+    "path": "sprites/sTitleNewShaded/sTitleNewShaded.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
