@@ -1,15 +1,10 @@
 /// @description Apply Physics
 
 // Get inputs
-key_left = keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
-key_down = keyboard_check(ord("S"));
-key_up = keyboard_check(ord("W"));
-
-key_gravleft = keyboard_check_pressed(vk_left);
-key_gravright = keyboard_check_pressed(vk_right);
-key_gravdown = keyboard_check_pressed(vk_down);
-key_gravup = keyboard_check_pressed(vk_up);
+key_gravleft = keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"));
+key_gravright = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"));
+key_gravdown = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
+key_gravup = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
 
 if(key_gravleft) gravityDir = "left";
 if(key_gravright) gravityDir = "right";
@@ -23,17 +18,14 @@ if(!global.paused)
 		case "down":
 			image_index = 0;
 			// Calculate movement	
-			var move = key_right - key_left;
 			if( hsp > 0.25) hsp -= 0.1;
 			else if (hsp < -0.25) hsp += 0.1;
 			else hsp = 0;
-			//hsp = move * walksp;
 			vsp = vsp + grv;
 			break;
 		case "up":
 			image_index = 1;
 			// Calculate movement	
-			var move = key_right - key_left;
 			if( hsp > 0.25) hsp -= 0.1;
 			else if (hsp < -0.25) hsp += 0.1;
 			else hsp = 0;
@@ -41,8 +33,7 @@ if(!global.paused)
 			break;
 		case "right":
 			image_index = 3;
-			// Calculate movement	
-			var move = key_down - key_up;
+			// Calculate movement
 			if( vsp > 0.25) vsp -= 0.1;
 			else if (vsp < -0.25) vsp += 0.1;
 			else vsp = 0;
@@ -51,7 +42,6 @@ if(!global.paused)
 		case "left":
 			image_index = 2;
 			// Calculate movement	
-			var move = key_down - key_up;
 			if( vsp > 0.25) vsp -= 0.1;
 			else if (vsp < -0.25) vsp += 0.1;
 			else vsp = 0;
