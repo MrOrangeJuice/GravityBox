@@ -25,12 +25,12 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"4dfeca7c-7ae7-40c9-bcd0-34144633ac24","path":"sprites/sEquipButton/sEquipButton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4dfeca7c-7ae7-40c9-bcd0-34144633ac24","path":"sprites/sEquipButton/sEquipButton.yy",},"LayerId":{"name":"3a8905ac-0719-48f6-b16e-0b7d1862c326","path":"sprites/sEquipButton/sEquipButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"4dfeca7c-7ae7-40c9-bcd0-34144633ac24","path":"sprites/sEquipButton/sEquipButton.yy",},"LayerId":{"name":"98979070-c582-438a-8f8b-345c6179ce44","path":"sprites/sEquipButton/sEquipButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"4dfeca7c-7ae7-40c9-bcd0-34144633ac24","path":"sprites/sEquipButton/sEquipButton.yy",},"LayerId":{"name":"3a8905ac-0719-48f6-b16e-0b7d1862c326","path":"sprites/sEquipButton/sEquipButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sEquipButton","path":"sprites/sEquipButton/sEquipButton.yy",},"resourceVersion":"1.0","name":"4dfeca7c-7ae7-40c9-bcd0-34144633ac24","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"433401b3-7994-450b-bea3-a7be815cc50a","path":"sprites/sEquipButton/sEquipButton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"433401b3-7994-450b-bea3-a7be815cc50a","path":"sprites/sEquipButton/sEquipButton.yy",},"LayerId":{"name":"3a8905ac-0719-48f6-b16e-0b7d1862c326","path":"sprites/sEquipButton/sEquipButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"433401b3-7994-450b-bea3-a7be815cc50a","path":"sprites/sEquipButton/sEquipButton.yy",},"LayerId":{"name":"98979070-c582-438a-8f8b-345c6179ce44","path":"sprites/sEquipButton/sEquipButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"433401b3-7994-450b-bea3-a7be815cc50a","path":"sprites/sEquipButton/sEquipButton.yy",},"LayerId":{"name":"3a8905ac-0719-48f6-b16e-0b7d1862c326","path":"sprites/sEquipButton/sEquipButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sEquipButton","path":"sprites/sEquipButton/sEquipButton.yy",},"resourceVersion":"1.0","name":"433401b3-7994-450b-bea3-a7be815cc50a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

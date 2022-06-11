@@ -13,6 +13,8 @@ global.fullscreen = false;
 global.fastStart = false;
 global.controller = false;
 
+global.music = true;
+
 // Mouse
 global.mouseX = 0;
 global.mouseY = 0;
