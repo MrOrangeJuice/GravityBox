@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sTitleNewShadedBig","path":"sprites/sTitleNewShadedBig/sTitleNewShadedBig.yy",},"order":37,},
     {"id":{"name":"sCoin2NewVFX","path":"sprites/sCoin2NewVFX/sCoin2NewVFX.yy",},"order":32,},
     {"id":{"name":"sPlayerGrayIcon","path":"sprites/sPlayerGrayIcon/sPlayerGrayIcon.yy",},"order":4,},
     {"id":{"name":"snd_Reject","path":"sounds/snd_Reject/snd_Reject.yy",},"order":5,},
@@ -49,6 +50,7 @@
     {"id":{"name":"rOptions","path":"rooms/rOptions/rOptions.yy",},"order":2,},
     {"id":{"name":"oFullscreenButton","path":"objects/oFullscreenButton/oFullscreenButton.yy",},"order":5,},
     {"id":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},"order":1,},
+    {"id":{"name":"sBGNewStars","path":"sprites/sBGNewStars/sBGNewStars.yy",},"order":38,},
     {"id":{"name":"sStartButton","path":"sprites/sStartButton/sStartButton.yy",},"order":5,},
     {"id":{"name":"sPlayerBig","path":"sprites/sPlayerBig/sPlayerBig.yy",},"order":15,},
     {"id":{"name":"oShopIcon","path":"objects/oShopIcon/oShopIcon.yy",},"order":12,},
@@ -98,6 +100,7 @@
     {"id":{"name":"sCoinNewVFX","path":"sprites/sCoinNewVFX/sCoinNewVFX.yy",},"order":9,},
     {"id":{"name":"oShopButton","path":"objects/oShopButton/oShopButton.yy",},"order":4,},
     {"id":{"name":"sPlayerOrange","path":"sprites/sPlayerOrange/sPlayerOrange.yy",},"order":0,},
+    {"id":{"name":"sThumbnail","path":"sprites/sThumbnail/sThumbnail.yy",},"order":35,},
     {"id":{"name":"sPlayerCitrusIcon","path":"sprites/sPlayerCitrusIcon/sPlayerCitrusIcon.yy",},"order":6,},
     {"id":{"name":"sPlayerGrayDeath","path":"sprites/sPlayerGrayDeath/sPlayerGrayDeath.yy",},"order":1,},
     {"id":{"name":"snd_Death","path":"sounds/snd_Death/snd_Death.yy",},"order":9,},
@@ -112,6 +115,7 @@
     {"id":{"name":"sEquipButton","path":"sprites/sEquipButton/sEquipButton.yy",},"order":13,},
     {"id":{"name":"sUIShell","path":"sprites/sUIShell/sUIShell.yy",},"order":12,},
     {"id":{"name":"oHomeButton","path":"objects/oHomeButton/oHomeButton.yy",},"order":1,},
+    {"id":{"name":"sThumbnailWide","path":"sprites/sThumbnailWide/sThumbnailWide.yy",},"order":36,},
     {"id":{"name":"oTitle","path":"objects/oTitle/oTitle.yy",},"order":9,},
     {"id":{"name":"sCoin3New","path":"sprites/sCoin3New/sCoin3New.yy",},"order":30,},
     {"id":{"name":"sCoinNew","path":"sprites/sCoinNew/sCoinNew.yy",},"order":8,},
