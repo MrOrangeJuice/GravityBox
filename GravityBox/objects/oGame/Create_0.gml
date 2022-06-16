@@ -8,7 +8,7 @@ global.alive = false;
 global.coinValue = 1;
 global.prevCoinValue = 1;
 
-global.mouse = true;
+global.mouse = false;
 global.fullscreen = false;
 global.fastStart = false;
 global.controller = false;

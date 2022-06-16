@@ -68,9 +68,15 @@ if(keyboard_check(vk_anykey))
 	global.controller = false;
 }
 
+// Turn mouse off if screen is touched
+if(device_mouse_check_button(0, mb_left))
+{
+	global.mouse = false;	
+}
+
 if(prevMousePosX != global.mouseX || prevMousePosY != global.mouseY)
 {
-	global.mouse = true;
+	//global.mouse = true;
 }
 
 if(prevActualMousePosX != mouse_x || prevActualMousePosY != mouse_y)
