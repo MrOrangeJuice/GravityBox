@@ -131,6 +131,7 @@
     {"id":{"name":"oStartButton","path":"objects/oStartButton/oStartButton.yy",},"order":9,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sPlayer2Icon","path":"sprites/sPlayer2Icon/sPlayer2Icon.yy",},"order":10,},
+    {"id":{"name":"sUpArrow","path":"sprites/sUpArrow/sUpArrow.yy",},"order":39,},
     {"id":{"name":"rGame","path":"rooms/rGame/rGame.yy",},"order":0,},
   ],
   "Options": [
