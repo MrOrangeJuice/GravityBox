@@ -4,17 +4,17 @@
 if(room == rGame)
 {
 	// Left UI
-	draw_text(56,80,"Time:");
+	draw_text(56,16,"Time:");
 	timeString = string_format((global.time / room_speed), 0, 2);
-	draw_text(56,96,timeString);
-	draw_text(56,144,"Coins:");
-	draw_text(56,160,global.coins);
+	draw_text(56,32,timeString);
+	draw_text(56,80,"Coins:");
+	draw_text(56,96,global.coins);
 
 	// Right UI
-	draw_text(424,80,"Score:");
-	draw_text(424,96,global.score);
-	draw_text(424,144,"Record:");
-	draw_text(424,160,global.highScore);
+	draw_text(424,16,"Score:");
+	draw_text(424,32,global.score);
+	draw_text(424,80,"Record:");
+	draw_text(424,96,global.highScore);
 }
 
 // Draw Cursor

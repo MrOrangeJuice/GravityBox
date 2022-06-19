@@ -29,4 +29,7 @@ function Restart(){
 	
 	// Spawn starting timer if fast start is disabled
 	if(!global.fastStart) instance_create_layer(240,135,"Instances",oStart);
+	
+	// Mobile
+	global.grav = "down";
 }

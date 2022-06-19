@@ -30,6 +30,9 @@ global.skinNames = ["Classic", "Perfect Blue", "Banana", "Grape", "Creamsicle", 
 global.shopOwnership = [true,false,false,false,false,false,false,false,false,false,false,false];
 global.buyHover = false;
 
+// Mobile
+global.grav = "down";
+
 prevMousePosX = global.mouseX;
 prevMousePosY = global.mouseY;
 
