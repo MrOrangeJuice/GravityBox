@@ -73,6 +73,7 @@
     {"id":{"name":"sBuyButton","path":"sprites/sBuyButton/sBuyButton.yy",},"order":11,},
     {"id":{"name":"oDeleteSaveButton","path":"objects/oDeleteSaveButton/oDeleteSaveButton.yy",},"order":6,},
     {"id":{"name":"sPlayerFern","path":"sprites/sPlayerFern/sPlayerFern.yy",},"order":0,},
+    {"id":{"name":"sBGNewSmall","path":"sprites/sBGNewSmall/sBGNewSmall.yy",},"order":42,},
     {"id":{"name":"sPlayerInverseDeath","path":"sprites/sPlayerInverseDeath/sPlayerInverseDeath.yy",},"order":1,},
     {"id":{"name":"sRetryButton","path":"sprites/sRetryButton/sRetryButton.yy",},"order":3,},
     {"id":{"name":"sHomeButton","path":"sprites/sHomeButton/sHomeButton.yy",},"order":1,},
