@@ -42,6 +42,10 @@ prevActualMousePosY = mouse_y;
 if(file_exists("savedata.ini")){
 	Load();
 }
+else
+{
+	Save();	
+}
 
 // Set fullscreen if loaded in
 if(global.fullscreen)
