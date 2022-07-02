@@ -19,6 +19,7 @@
     {"id":{"name":"snd_Go","path":"sounds/snd_Go/snd_Go.yy",},"order":13,},
     {"id":{"name":"sRightArrow","path":"sprites/sRightArrow/sRightArrow.yy",},"order":3,},
     {"id":{"name":"sDownArrow","path":"sprites/sDownArrow/sDownArrow.yy",},"order":0,},
+    {"id":{"name":"sSplash","path":"sprites/sSplash/sSplash.yy",},"order":44,},
     {"id":{"name":"sPlayer2","path":"sprites/sPlayer2/sPlayer2.yy",},"order":0,},
     {"id":{"name":"sMusicOnButton","path":"sprites/sMusicOnButton/sMusicOnButton.yy",},"order":15,},
     {"id":{"name":"sPlayerFernDeath","path":"sprites/sPlayerFernDeath/sPlayerFernDeath.yy",},"order":1,},
@@ -210,7 +211,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.5.1.16",
+    "IDEVersion": "2022.6.0.23",
   },
   "resourceVersion": "1.5",
   "name": "GravityBox",

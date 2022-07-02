@@ -5,7 +5,7 @@
   "option_linux_homepage": "https://supercitrus.itch.io/gravity-box",
   "option_linux_short_desc": "Gravity Box",
   "option_linux_long_desc": "A gravity defying high score challenge",
-  "option_linux_splash_screen": "${base_options_dir}/linux/splash/splash.png",
+  "option_linux_splash_screen": "splash/splash.png",
   "option_linux_display_splash": false,
   "option_linux_icon": "icons/64.png",
   "option_linux_start_fullscreen": false,
