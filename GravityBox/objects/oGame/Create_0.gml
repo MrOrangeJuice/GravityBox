@@ -22,6 +22,8 @@ global.mouseControllerSpeed = 5;
 
 global.paused = false;
 
+global.easterScore = 0;
+
 // Shop
 global.currentShopSelection = 0;
 global.playerSelection = 0;
