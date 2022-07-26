@@ -13,6 +13,7 @@
     {"id":{"name":"sPlayerBlue","path":"sprites/sPlayerBlue/sPlayerBlue.yy",},"order":0,},
     {"id":{"name":"snd_FernDeath","path":"sounds/snd_FernDeath/snd_FernDeath.yy",},"order":10,},
     {"id":{"name":"sPlayerDogIcon","path":"sprites/sPlayerDogIcon/sPlayerDogIcon.yy",},"order":14,},
+    {"id":{"name":"sBGNewClouds","path":"sprites/sBGNewClouds/sBGNewClouds.yy",},"order":40,},
     {"id":{"name":"oPlayerDeathSprite","path":"objects/oPlayerDeathSprite/oPlayerDeathSprite.yy",},"order":8,},
     {"id":{"name":"msc_Grooves_That_Kill","path":"sounds/msc_Grooves_That_Kill/msc_Grooves_That_Kill.yy",},"order":2,},
     {"id":{"name":"snd_Go","path":"sounds/snd_Go/snd_Go.yy",},"order":13,},
