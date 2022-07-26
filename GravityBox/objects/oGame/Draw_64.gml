@@ -7,7 +7,7 @@ if(room == rGame)
 	draw_text(56,80,"Time:");
 	timeString = string_format((global.time / room_speed), 0, 2);
 	draw_text(56,96,timeString);
-	draw_text(56,144,"Coins:");
+	draw_text(56,144,"Gems:");
 	draw_text(56,160,global.coins);
 
 	// Right UI

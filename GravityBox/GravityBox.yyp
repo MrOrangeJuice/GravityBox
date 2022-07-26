@@ -31,6 +31,7 @@
     {"id":{"name":"oPipe","path":"objects/oPipe/oPipe.yy",},"order":14,},
     {"id":{"name":"snd_Buy","path":"sounds/snd_Buy/snd_Buy.yy",},"order":6,},
     {"id":{"name":"sTileset","path":"sprites/sTileset/sTileset.yy",},"order":5,},
+    {"id":{"name":"sPlayerDogBig","path":"sprites/sPlayerDogBig/sPlayerDogBig.yy",},"order":2,},
     {"id":{"name":"sMusicOffButton","path":"sprites/sMusicOffButton/sMusicOffButton.yy",},"order":16,},
     {"id":{"name":"oCoinVFX","path":"objects/oCoinVFX/oCoinVFX.yy",},"order":7,},
     {"id":{"name":"sEquippedButton","path":"sprites/sEquippedButton/sEquippedButton.yy",},"order":14,},
