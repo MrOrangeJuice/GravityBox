@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5f7b3546-34ff-4add-add4-69353ce78fad","path":"sprites/sMysteryDeath/sMysteryDeath.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5f7b3546-34ff-4add-add4-69353ce78fad","path":"sprites/sMysteryDeath/sMysteryDeath.yy",},"LayerId":{"name":"ac947b9f-f9be-4c1b-a5d7-7cdf513b8fa9","path":"sprites/sMysteryDeath/sMysteryDeath.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sMysteryDeath","path":"sprites/sMysteryDeath/sMysteryDeath.yy",},"resourceVersion":"1.0","name":"5f7b3546-34ff-4add-add4-69353ce78fad","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5f7b3546-34ff-4add-add4-69353ce78fad","path":"sprites/sPlayerMysteryDeath/sPlayerMysteryDeath.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5f7b3546-34ff-4add-add4-69353ce78fad","path":"sprites/sPlayerMysteryDeath/sPlayerMysteryDeath.yy",},"LayerId":{"name":"ac947b9f-f9be-4c1b-a5d7-7cdf513b8fa9","path":"sprites/sPlayerMysteryDeath/sPlayerMysteryDeath.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPlayerMysteryDeath","path":"sprites/sPlayerMysteryDeath/sPlayerMysteryDeath.yy",},"resourceVersion":"1.0","name":"5f7b3546-34ff-4add-add4-69353ce78fad","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sMysteryDeath","path":"sprites/sMysteryDeath/sMysteryDeath.yy",},
+    "spriteId": {"name":"sPlayerMysteryDeath","path":"sprites/sPlayerMysteryDeath/sPlayerMysteryDeath.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d26ba34d-ca9e-4373-8dc4-6cb9898bd02a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5f7b3546-34ff-4add-add4-69353ce78fad","path":"sprites/sMysteryDeath/sMysteryDeath.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"d26ba34d-ca9e-4373-8dc4-6cb9898bd02a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5f7b3546-34ff-4add-add4-69353ce78fad","path":"sprites/sPlayerMysteryDeath/sPlayerMysteryDeath.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sMysteryDeath","path":"sprites/sMysteryDeath/sMysteryDeath.yy",},
+    "parent": {"name":"sPlayerMysteryDeath","path":"sprites/sPlayerMysteryDeath/sPlayerMysteryDeath.yy",},
     "resourceVersion": "1.4",
-    "name": "sMysteryDeath",
+    "name": "sPlayerMysteryDeath",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Players/Mystery.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sMysteryDeath",
+  "name": "sPlayerMysteryDeath",
   "tags": [],
   "resourceType": "GMSprite",
 }
