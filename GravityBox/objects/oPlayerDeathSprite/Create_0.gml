@@ -1,6 +1,6 @@
 /// @description Init
 
-vsp = 0;
+vsp = -2;
 grv = 0.15;
 
 switch(global.playerSelection)
