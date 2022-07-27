@@ -51,6 +51,7 @@
     {"id":{"name":"sPlayer2Death","path":"sprites/sPlayer2Death/sPlayer2Death.yy",},"order":1,},
     {"id":{"name":"sPlayerYellowIcon","path":"sprites/sPlayerYellowIcon/sPlayerYellowIcon.yy",},"order":2,},
     {"id":{"name":"sPlayerRobot","path":"sprites/sPlayerRobot/sPlayerRobot.yy",},"order":0,},
+    {"id":{"name":"sPlayerGroovy","path":"sprites/sPlayerGroovy/sPlayerGroovy.yy",},"order":0,},
     {"id":{"name":"sCoin3NewVFX","path":"sprites/sCoin3NewVFX/sCoin3NewVFX.yy",},"order":31,},
     {"id":{"name":"oOptionsButton","path":"objects/oOptionsButton/oOptionsButton.yy",},"order":2,},
     {"id":{"name":"sBGNew","path":"sprites/sBGNew/sBGNew.yy",},"order":14,},
@@ -113,6 +114,7 @@
     {"id":{"name":"sPlayerCitrusIcon","path":"sprites/sPlayerCitrusIcon/sPlayerCitrusIcon.yy",},"order":6,},
     {"id":{"name":"sPlayerGrayDeath","path":"sprites/sPlayerGrayDeath/sPlayerGrayDeath.yy",},"order":1,},
     {"id":{"name":"snd_Death","path":"sounds/snd_Death/snd_Death.yy",},"order":9,},
+    {"id":{"name":"sPlayerGroovyDeath","path":"sprites/sPlayerGroovyDeath/sPlayerGroovyDeath.yy",},"order":1,},
     {"id":{"name":"sPlayerMysteryDeath","path":"sprites/sPlayerMysteryDeath/sPlayerMysteryDeath.yy",},"order":1,},
     {"id":{"name":"sBG","path":"sprites/sBG/sBG.yy",},"order":7,},
     {"id":{"name":"tTileset","path":"tilesets/tTileset/tTileset.yy",},"order":0,},
@@ -207,6 +209,7 @@
     {"folderPath":"folders/Sprites/Players/Mystery.yy","order":13,"resourceVersion":"1.0","name":"Mystery","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Players/Robot.yy","order":14,"resourceVersion":"1.0","name":"Robot","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Players/Dog.yy","order":15,"resourceVersion":"1.0","name":"Dog","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Players/Groovy.yy","order":16,"resourceVersion":"1.0","name":"Groovy","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
