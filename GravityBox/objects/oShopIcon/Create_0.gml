@@ -42,4 +42,22 @@ switch(selectionNum)
 	case 11:
 		sprite_index = sPlayerInverseIcon;
 		break;
+	case 12:
+		sprite_index = sPlayerGroovyIcon;
+		break;
+	case 13:
+		sprite_index = sPlayerDogIcon;
+		break;
+	case 14:
+		sprite_index = sPlayerGeraldIcon;
+		break;
+	case 15:
+		sprite_index = sPlayerCrownIcon;
+		break;
+	case 16:
+		sprite_index = sPlayerRobotIcon;
+		break;
+	case 17:
+		sprite_index = sPlayerMysteryIcon;
+		break;
 }

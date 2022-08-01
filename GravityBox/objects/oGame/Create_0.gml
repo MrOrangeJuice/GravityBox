@@ -27,9 +27,9 @@ global.easterScore = 0;
 // Shop
 global.currentShopSelection = 0;
 global.playerSelection = 0;
-global.shopPrices = [0, 20, 50, 50, 50, 50, 100, 150, 100, 150, 150, 200];
-global.skinNames = ["Classic", "Perfect Blue", "Banana", "Grape", "Creamsicle", "Monochrome", "Super Citrus", "Fern", "Lil' Cupid", "DMGravity", "Player 2", "Opposite Day"];
-global.shopOwnership = [true,false,false,false,false,false,false,false,false,false,false,false];
+global.shopPrices = [0, 20, 50, 50, 50, 50, 100, 150, 100, 150, 150, 200, 1, 1, 1, 1, 1, 1];
+global.skinNames = ["Classic", "Perfect Blue", "Banana", "Grape", "Creamsicle", "Grayscale", "Super Citrus", "Fern", "Lil' Cupid", "DMGravity", "Player 2", "Opposite Day", "Groovy Tuesday", "Dog Days", "Gerald", "Lord of the Box", "BoxBot 2.3", "Mr. Mystery"];
+global.shopOwnership = [true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false];
 global.buyHover = false;
 
 prevMousePosX = global.mouseX;

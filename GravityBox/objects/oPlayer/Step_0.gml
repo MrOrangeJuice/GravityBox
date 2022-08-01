@@ -109,3 +109,16 @@ if(!global.paused)
 
 	y = y + vsp;
 }
+
+// Animation for Gerald
+if(global.playerSelection == 14)
+{
+	if((place_meeting(x,y+1,oWall) || place_meeting(x,y-1,oWall) || place_meeting(x+1,y,oWall) || place_meeting(x-1,y,oWall)) && vsp == 0 && hsp == 0)
+	{
+		sprite_index = sPlayerGeraldWall;	
+	}
+	else
+	{
+		sprite_index = sPlayerGerald;	
+	}
+}
