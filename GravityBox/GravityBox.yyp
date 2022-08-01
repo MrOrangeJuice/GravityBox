@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sPlayerCrownDeath","path":"sprites/sPlayerCrownDeath/sPlayerCrownDeath.yy",},"order":1,},
     {"id":{"name":"sTitleNewShadedBig","path":"sprites/sTitleNewShadedBig/sTitleNewShadedBig.yy",},"order":37,},
     {"id":{"name":"sCoin2NewVFX","path":"sprites/sCoin2NewVFX/sCoin2NewVFX.yy",},"order":32,},
     {"id":{"name":"sPlayerGrayIcon","path":"sprites/sPlayerGrayIcon/sPlayerGrayIcon.yy",},"order":4,},
@@ -80,7 +81,7 @@
     {"id":{"name":"sPlayerFern","path":"sprites/sPlayerFern/sPlayerFern.yy",},"order":0,},
     {"id":{"name":"sPlayerInverseDeath","path":"sprites/sPlayerInverseDeath/sPlayerInverseDeath.yy",},"order":1,},
     {"id":{"name":"sRetryButton","path":"sprites/sRetryButton/sRetryButton.yy",},"order":3,},
-    {"id":{"name":"sPlayerBilly","path":"sprites/sPlayerBilly/sPlayerBilly.yy",},"order":0,},
+    {"id":{"name":"sPlayerGerald","path":"sprites/sPlayerGerald/sPlayerGerald.yy",},"order":0,},
     {"id":{"name":"sHomeButton","path":"sprites/sHomeButton/sHomeButton.yy",},"order":1,},
     {"id":{"name":"sFastStartOnButton","path":"sprites/sFastStartOnButton/sFastStartOnButton.yy",},"order":9,},
     {"id":{"name":"sPlayerDeath","path":"sprites/sPlayerDeath/sPlayerDeath.yy",},"order":1,},
@@ -104,6 +105,7 @@
     {"id":{"name":"rShop","path":"rooms/rShop/rShop.yy",},"order":3,},
     {"id":{"name":"sPlayerInverse","path":"sprites/sPlayerInverse/sPlayerInverse.yy",},"order":0,},
     {"id":{"name":"sTitleNew","path":"sprites/sTitleNew/sTitleNew.yy",},"order":33,},
+    {"id":{"name":"sPlayerCrown","path":"sprites/sPlayerCrown/sPlayerCrown.yy",},"order":0,},
     {"id":{"name":"sPlayerHeartDeath","path":"sprites/sPlayerHeartDeath/sPlayerHeartDeath.yy",},"order":1,},
     {"id":{"name":"sExitButton","path":"sprites/sExitButton/sExitButton.yy",},"order":0,},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":3,},
@@ -141,7 +143,7 @@
     {"id":{"name":"sBuyButtonPoor","path":"sprites/sBuyButtonPoor/sBuyButtonPoor.yy",},"order":12,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":3,},
     {"id":{"name":"msc_Shop","path":"sounds/msc_Shop/msc_Shop.yy",},"order":1,},
-    {"id":{"name":"sPlayerBillyDeath","path":"sprites/sPlayerBillyDeath/sPlayerBillyDeath.yy",},"order":1,},
+    {"id":{"name":"sPlayerGeraldDeath","path":"sprites/sPlayerGeraldDeath/sPlayerGeraldDeath.yy",},"order":1,},
     {"id":{"name":"sUIShellShop","path":"sprites/sUIShellShop/sUIShellShop.yy",},"order":28,},
     {"id":{"name":"sPlayerCitrus","path":"sprites/sPlayerCitrus/sPlayerCitrus.yy",},"order":0,},
     {"id":{"name":"sCoverImage","path":"sprites/sCoverImage/sCoverImage.yy",},"order":13,},
@@ -212,7 +214,8 @@
     {"folderPath":"folders/Sprites/Players/Robot.yy","order":14,"resourceVersion":"1.0","name":"Robot","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Players/Dog.yy","order":15,"resourceVersion":"1.0","name":"Dog","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Players/Groovy.yy","order":16,"resourceVersion":"1.0","name":"Groovy","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/Players/Billy.yy","order":17,"resourceVersion":"1.0","name":"Billy","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Players/Gerald.yy","order":17,"resourceVersion":"1.0","name":"Gerald","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Players/Crown.yy","order":18,"resourceVersion":"1.0","name":"Crown","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
