@@ -55,19 +55,7 @@ else
 }
 
 // Check for achievement in case of existing save file
-skinsOwned = 0;
-for(i = 0; i < array_length(global.shopOwnership); i++)
-{
-	if(global.shopOwnership[i])
-	{
-		skinsOwned++;	
-	}
-}
-if(skinsOwned >= 5)
-{
-	global.shop5 = true;
-	global.shopOwnership[16] = true;
-}
+CheckForAchievements();
 
 // Set fullscreen if loaded in
 if(global.fullscreen)

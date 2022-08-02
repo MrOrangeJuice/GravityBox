@@ -40,20 +40,7 @@ if (position_meeting(global.mouseX,global.mouseY,oBuyButton) && global.mouse)
 				global.shopOwnership[global.currentShopSelection] = true;	
 				global.coins -= global.shopPrices[global.currentShopSelection];
 				audio_play_sound(snd_Buy,5,false);
-				// Check for achievement
-				skinsOwned = 0;
-				for(i = 0; i < array_length(global.shopOwnership); i++)
-				{
-					if(global.shopOwnership[i])
-					{
-						skinsOwned++;	
-					}
-				}
-				if(skinsOwned >= 5)
-				{
-					global.shop5 = true;
-					global.shopOwnership[16] = true;
-				}
+				CheckForAchievements();
 			}
 			else
 			{

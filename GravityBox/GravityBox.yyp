@@ -113,6 +113,7 @@
     {"id":{"name":"sPipe","path":"sprites/sPipe/sPipe.yy",},"order":27,},
     {"id":{"name":"sCoinNewVFX","path":"sprites/sCoinNewVFX/sCoinNewVFX.yy",},"order":9,},
     {"id":{"name":"oShopButton","path":"objects/oShopButton/oShopButton.yy",},"order":4,},
+    {"id":{"name":"CheckForAchievements","path":"scripts/CheckForAchievements/CheckForAchievements.yy",},"order":4,},
     {"id":{"name":"sPlayerOrange","path":"sprites/sPlayerOrange/sPlayerOrange.yy",},"order":0,},
     {"id":{"name":"sThumbnail","path":"sprites/sThumbnail/sThumbnail.yy",},"order":35,},
     {"id":{"name":"sPlayerCitrusIcon","path":"sprites/sPlayerCitrusIcon/sPlayerCitrusIcon.yy",},"order":6,},
