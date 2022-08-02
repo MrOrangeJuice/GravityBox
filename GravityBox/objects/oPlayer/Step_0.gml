@@ -113,12 +113,20 @@ if(!global.paused)
 // Animation for Gerald
 if(global.playerSelection == 14)
 {
-	if((place_meeting(x,y+1,oWall) || place_meeting(x,y-1,oWall) || place_meeting(x+1,y,oWall) || place_meeting(x-1,y,oWall)) && vsp == 0 && hsp == 0)
+	if(gravityDir == "down" && place_meeting(x,y+1,oWall))
 	{
-		sprite_index = sPlayerGeraldWall;	
+		image_index = 4;	
 	}
-	else
+	else if(gravityDir == "up" && place_meeting(x,y-1,oWall))
 	{
-		sprite_index = sPlayerGerald;	
+		image_index = 4;	
+	}
+	else if(gravityDir == "left" && place_meeting(x-1,y,oWall))
+	{
+		image_index = 4;	
+	}
+	else if(gravityDir == "right" && place_meeting(x+1,y,oWall))
+	{
+		image_index = 4;	
 	}
 }

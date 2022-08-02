@@ -83,10 +83,10 @@ if(playerNum == 14)
 {
 	if(place_meeting(x,y+1,oWall))
 	{
-		sprite_index = sPlayerGeraldWall;	
+		image_index = 4;	
 	}
 	else
 	{
-		sprite_index = sPlayerGerald;	
+		image_index = 0;
 	}
 }

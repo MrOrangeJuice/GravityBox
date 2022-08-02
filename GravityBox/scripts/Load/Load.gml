@@ -7,6 +7,12 @@ function Load(){
 	global.music = ini_read_real("savegame", "music", 0);
 	global.currentShopSelection = ini_read_real("savegame", "currentShopSelection", 0);
 	global.playerSelection = ini_read_real("savegame", "playerSelection", 0);
+	global.points50 = ini_read_real("savegame", "points50", 0);
+	global.points100 = ini_read_real("savegame", "points100", 0);
+	global.points200 = ini_read_real("savegame", "points200", 0);
+	global.points300 = ini_read_real("savegame", "points300", 0);
+	global.shop5 = ini_read_real("savegame", "shop5", 0);
+	global.mysteryAchievement = ini_read_real("savegame", "mysteryAchievement", 0);
 	global.shopOwnership[0] = ini_read_real("savegame", "shopOwnership0", 0);
 	global.shopOwnership[1] = ini_read_real("savegame", "shopOwnership1", 0);
 	global.shopOwnership[2] = ini_read_real("savegame", "shopOwnership2", 0);

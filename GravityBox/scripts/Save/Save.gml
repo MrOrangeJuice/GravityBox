@@ -7,6 +7,12 @@ function Save(){
 	ini_write_real("savegame", "music", global.music);
 	ini_write_real("savegame", "currentShopSelection", global.currentShopSelection);
 	ini_write_real("savegame", "playerSelection", global.playerSelection);
+	ini_write_real("savegame", "points50", global.points50);
+	ini_write_real("savegame", "points100", global.points100);
+	ini_write_real("savegame", "points200", global.points200);
+	ini_write_real("savegame", "points300", global.points300);
+	ini_write_real("savegame", "shop5", global.shop5);
+	ini_write_real("savegame", "mysteryAchievement", global.mysteryAchievement);
 	ini_write_real("savegame", "shopOwnership0", global.shopOwnership[0]);
 	ini_write_real("savegame", "shopOwnership1", global.shopOwnership[1]);
 	ini_write_real("savegame", "shopOwnership2", global.shopOwnership[2]);

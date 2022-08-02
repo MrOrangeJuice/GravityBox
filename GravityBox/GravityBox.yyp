@@ -92,7 +92,6 @@
     {"id":{"name":"sPlayerInverseIcon","path":"sprites/sPlayerInverseIcon/sPlayerInverseIcon.yy",},"order":8,},
     {"id":{"name":"sPlayerFernIcon","path":"sprites/sPlayerFernIcon/sPlayerFernIcon.yy",},"order":7,},
     {"id":{"name":"sPlayerPurpleIcon","path":"sprites/sPlayerPurpleIcon/sPlayerPurpleIcon.yy",},"order":5,},
-    {"id":{"name":"sPlayerGeraldWall","path":"sprites/sPlayerGeraldWall/sPlayerGeraldWall.yy",},"order":2,},
     {"id":{"name":"sFastStartOffButton","path":"sprites/sFastStartOffButton/sFastStartOffButton.yy",},"order":10,},
     {"id":{"name":"sPlayerGameBoyIcon","path":"sprites/sPlayerGameBoyIcon/sPlayerGameBoyIcon.yy",},"order":9,},
     {"id":{"name":"sPlayerOrangeDeath","path":"sprites/sPlayerOrangeDeath/sPlayerOrangeDeath.yy",},"order":1,},

@@ -15,6 +15,14 @@ global.controller = false;
 
 global.music = true;
 
+// Achievements
+global.points50 = false;
+global.points100 = false;
+global.points200 = false;
+global.points300 = false;
+global.shop5 = false;
+global.mysteryAchievement = false;
+
 // Mouse
 global.mouseX = 0;
 global.mouseY = 0;
@@ -44,6 +52,21 @@ if(file_exists("savedata.ini")){
 else
 {
 	Save();	
+}
+
+// Check for achievement in case of existing save file
+skinsOwned = 0;
+for(i = 0; i < array_length(global.shopOwnership); i++)
+{
+	if(global.shopOwnership[i])
+	{
+		skinsOwned++;	
+	}
+}
+if(skinsOwned >= 5)
+{
+	global.shop5 = true;
+	global.shopOwnership[16] = true;
 }
 
 // Set fullscreen if loaded in
