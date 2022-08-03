@@ -20,6 +20,7 @@
     {"id":{"name":"snd_Go","path":"sounds/snd_Go/snd_Go.yy",},"order":13,},
     {"id":{"name":"sPlayer2","path":"sprites/sPlayer2/sPlayer2.yy",},"order":0,},
     {"id":{"name":"sPlayerGroovyIcon","path":"sprites/sPlayerGroovyIcon/sPlayerGroovyIcon.yy",},"order":15,},
+    {"id":{"name":"sNotification","path":"sprites/sNotification/sNotification.yy",},"order":41,},
     {"id":{"name":"sMusicOnButton","path":"sprites/sMusicOnButton/sMusicOnButton.yy",},"order":15,},
     {"id":{"name":"sPlayerFernDeath","path":"sprites/sPlayerFernDeath/sPlayerFernDeath.yy",},"order":1,},
     {"id":{"name":"snd_MenuSelect","path":"sounds/snd_MenuSelect/snd_MenuSelect.yy",},"order":2,},
