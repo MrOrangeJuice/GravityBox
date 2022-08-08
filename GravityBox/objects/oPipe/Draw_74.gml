@@ -2,8 +2,8 @@
 
 draw_set_color(c_black);
 
-// Draw Number of Coins
-draw_text(56,194,"Coins:");
+// Draw Number of Gems
+draw_text(56,194,"Gems:");
 draw_text(56,210,global.coins);
 
 // Draw skin name
@@ -37,7 +37,7 @@ if(!global.shopOwnership[global.currentShopSelection])
 					buttonText = "SCORE 300";
 					break;
 				case 16:
-					buttonText = "BUY";
+					buttonText = "OWN";
 					break;
 				case 17:
 					buttonText = "???";
@@ -81,7 +81,7 @@ if(!global.shopOwnership[global.currentShopSelection])
 					buttonText = "SCORE 300";
 					break;
 				case 16:
-					buttonText = "BUY";
+					buttonText = "OWN";
 					break;
 				case 17:
 					buttonText = "???";

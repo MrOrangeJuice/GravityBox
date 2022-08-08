@@ -27,6 +27,7 @@ if (position_meeting(global.mouseX,global.mouseY,id) && global.mouse)
 		}
 		else
 		{
+			audio_play_sound(snd_Letter,5,false);
 			vsp = -4;
 		}
 	}

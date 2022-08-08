@@ -53,6 +53,7 @@ function CheckForAchievements(){
 		}
 		audio_play_sound(snd_Pop,5,false);
 		audio_play_sound(snd_Yay,5,false);
+		global.clickCount = 0;
 	}
 	
 	// Spawn acheivement notifications
