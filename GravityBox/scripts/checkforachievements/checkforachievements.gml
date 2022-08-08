@@ -27,7 +27,7 @@ function CheckForAchievements(){
 		global.shopOwnership[12] = true;
 		achievementQueue[3] = true;
 	}
-	// Check for achievement
+	// Check for shop achievement
 	skinsOwned = 0;
 	for(i = 0; i < array_length(global.shopOwnership); i++)
 	{
@@ -41,6 +41,18 @@ function CheckForAchievements(){
 		global.shop5 = true;
 		global.shopOwnership[16] = true;
 		achievementQueue[4] = true;
+	}
+	// Check for mystery achievement
+	if(global.clickCount >= 10)
+	{
+		if(!global.mysteryAchievement)
+		{
+			global.mysteryAchievement = true;
+			global.shopOwnership[17] = true;
+			achievementQueue[5] = true;
+		}
+		audio_play_sound(snd_Pop,5,false);
+		audio_play_sound(snd_Yay,5,false);
 	}
 	
 	// Spawn acheivement notifications

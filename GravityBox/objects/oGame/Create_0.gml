@@ -32,6 +32,9 @@ global.paused = false;
 
 global.easterScore = 0;
 
+// Title Easter Egg
+global.clickCount = 0;
+
 // Shop
 global.currentShopSelection = 0;
 global.playerSelection = 0;

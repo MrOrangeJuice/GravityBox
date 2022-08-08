@@ -25,6 +25,8 @@ else if(room == rTitle)
 	audio_stop_sound(msc_Pattlebaddle);	
 	audio_stop_sound(msc_Shop);	
 	if(global.music) audio_play_sound(msc_Title,5,true);
+	// Easter Title Easter Egg
+	global.clickCount = 0;
 }
 
 global.easterScore = 0;
