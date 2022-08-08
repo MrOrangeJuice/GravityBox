@@ -24,13 +24,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3ca3f40a-1261-4327-afb6-e34cc0731445","path":"sprites/sTitleNewShaded/sTitleNewShaded.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3ca3f40a-1261-4327-afb6-e34cc0731445","path":"sprites/sTitleNewShaded/sTitleNewShaded.yy",},"LayerId":{"name":"cf48de7a-3794-46b5-aa01-da6abb76dcad","path":"sprites/sTitleNewShaded/sTitleNewShaded.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"3ca3f40a-1261-4327-afb6-e34cc0731445","path":"sprites/sTitleNewShaded/sTitleNewShaded.yy",},"LayerId":{"name":"cc9fbbc2-ba4f-4c0e-8002-6f3d4ecffdc5","path":"sprites/sTitleNewShaded/sTitleNewShaded.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sTitleNewShaded","path":"sprites/sTitleNewShaded/sTitleNewShaded.yy",},"resourceVersion":"1.0","name":"3ca3f40a-1261-4327-afb6-e34cc0731445","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3ca3f40a-1261-4327-afb6-e34cc0731445","path":"sprites/sTitleNewShadedOutline/sTitleNewShadedOutline.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3ca3f40a-1261-4327-afb6-e34cc0731445","path":"sprites/sTitleNewShadedOutline/sTitleNewShadedOutline.yy",},"LayerId":{"name":"cf48de7a-3794-46b5-aa01-da6abb76dcad","path":"sprites/sTitleNewShadedOutline/sTitleNewShadedOutline.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"3ca3f40a-1261-4327-afb6-e34cc0731445","path":"sprites/sTitleNewShadedOutline/sTitleNewShadedOutline.yy",},"LayerId":{"name":"cc9fbbc2-ba4f-4c0e-8002-6f3d4ecffdc5","path":"sprites/sTitleNewShadedOutline/sTitleNewShadedOutline.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sTitleNewShadedOutline","path":"sprites/sTitleNewShadedOutline/sTitleNewShadedOutline.yy",},"resourceVersion":"1.0","name":"3ca3f40a-1261-4327-afb6-e34cc0731445","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sTitleNewShaded","path":"sprites/sTitleNewShaded/sTitleNewShaded.yy",},
+    "spriteId": {"name":"sTitleNewShadedOutline","path":"sprites/sTitleNewShadedOutline/sTitleNewShadedOutline.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -42,7 +42,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5cf8375f-8c1a-4f08-8d9f-67ddb1546809","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ca3f40a-1261-4327-afb6-e34cc0731445","path":"sprites/sTitleNewShaded/sTitleNewShaded.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"dfc6a7b8-23ab-4ddc-a513-f77b9abb27cc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ca3f40a-1261-4327-afb6-e34cc0731445","path":"sprites/sTitleNewShadedOutline/sTitleNewShadedOutline.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -59,9 +59,9 @@
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sTitleNewShaded","path":"sprites/sTitleNewShaded/sTitleNewShaded.yy",},
+    "parent": {"name":"sTitleNewShadedOutline","path":"sprites/sTitleNewShadedOutline/sTitleNewShadedOutline.yy",},
     "resourceVersion": "1.4",
-    "name": "sTitleNewShaded",
+    "name": "sTitleNewShadedOutline",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -75,7 +75,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sTitleNewShaded",
+  "name": "sTitleNewShadedOutline",
   "tags": [],
   "resourceType": "GMSprite",
 }

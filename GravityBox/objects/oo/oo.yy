@@ -1,14 +1,17 @@
 {
   "spriteId": {
-    "name": "sTitleNewShadedOutline",
-    "path": "sprites/sTitleNewShadedOutline/sTitleNewShadedOutline.yy",
+    "name": "sO",
+    "path": "sprites/sO/sO.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oLetter",
+    "path": "objects/oLetter/oLetter.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,11 +28,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Letters",
+    "path": "folders/Objects/Letters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTitle",
+  "name": "oO",
   "tags": [],
   "resourceType": "GMObject",
 }
