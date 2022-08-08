@@ -16,6 +16,3 @@ if(room == rGame)
 	draw_text(424,144,"Record:");
 	draw_text(424,160,global.highScore);
 }
-
-// Draw Cursor
-if(global.mouse) draw_sprite(sCursor,0,global.mouseX,global.mouseY);
