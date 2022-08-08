@@ -68,6 +68,7 @@
     {"id":{"name":"sPlayerBlueDeath","path":"sprites/sPlayerBlueDeath/sPlayerBlueDeath.yy",},"order":1,},
     {"id":{"name":"snd_Coin3","path":"sounds/snd_Coin3/snd_Coin3.yy",},"order":8,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":0,},
+    {"id":{"name":"oAcheivement","path":"objects/oAcheivement/oAcheivement.yy",},"order":16,},
     {"id":{"name":"oShopPlayer","path":"objects/oShopPlayer/oShopPlayer.yy",},"order":13,},
     {"id":{"name":"sPlayer2Big","path":"sprites/sPlayer2Big/sPlayer2Big.yy",},"order":2,},
     {"id":{"name":"snd_Coin2","path":"sounds/snd_Coin2/snd_Coin2.yy",},"order":7,},
