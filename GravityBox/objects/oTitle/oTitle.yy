@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTitleNewShaded",
-    "path": "sprites/sTitleNewShaded/sTitleNewShaded.yy",
+    "name": "sTitleNewShadedOutline",
+    "path": "sprites/sTitleNewShadedOutline/sTitleNewShadedOutline.yy",
   },
   "solid": false,
   "visible": true,
