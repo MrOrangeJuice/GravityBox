@@ -37,7 +37,7 @@ if(!global.shopOwnership[global.currentShopSelection])
 					buttonText = "SCORE 300";
 					break;
 				case 16:
-					buttonText = "OWN";
+					buttonText = "BUY";
 					break;
 				case 17:
 					buttonText = "???";
@@ -81,7 +81,7 @@ if(!global.shopOwnership[global.currentShopSelection])
 					buttonText = "SCORE 300";
 					break;
 				case 16:
-					buttonText = "OWN";
+					buttonText = "BUY";
 					break;
 				case 17:
 					buttonText = "???";

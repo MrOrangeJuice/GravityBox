@@ -28,3 +28,4 @@ else if(room == rTitle)
 }
 
 global.easterScore = 0;
+global.clickCount = 0;

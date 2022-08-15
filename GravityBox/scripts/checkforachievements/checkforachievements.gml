@@ -29,14 +29,14 @@ function CheckForAchievements(){
 	}
 	// Check for shop achievement
 	skinsOwned = 0;
-	for(i = 0; i < array_length(global.shopOwnership); i++)
+	for(i = 0; i < 12; i++)
 	{
 		if(global.shopOwnership[i])
 		{
 			skinsOwned++;	
 		}
 	}
-	if(skinsOwned >= 5 && !global.shop5)
+	if(skinsOwned >= 6 && !global.shop5)
 	{
 		global.shop5 = true;
 		global.shopOwnership[16] = true;
