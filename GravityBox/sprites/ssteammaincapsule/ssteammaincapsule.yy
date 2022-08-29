@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 459,
   "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_bottom": 214,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 92,
-  "height": 43,
+  "width": 460,
+  "height": 215,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"62abd8e6-d935-4a26-98e7-2b9ddc393e74","path":"sprites/sSteamMainCapsule/sSteamMainCapsule.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"62abd8e6-d935-4a26-98e7-2b9ddc393e74","path":"sprites/sSteamMainCapsule/sSteamMainCapsule.yy",},"LayerId":{"name":"d178b2c7-8bc6-4c17-bde5-525406b5fc0e","path":"sprites/sSteamMainCapsule/sSteamMainCapsule.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"62abd8e6-d935-4a26-98e7-2b9ddc393e74","path":"sprites/sSteamMainCapsule/sSteamMainCapsule.yy",},"LayerId":{"name":"40c2204d-fc50-40e7-80ce-6b4adfa68e61","path":"sprites/sSteamMainCapsule/sSteamMainCapsule.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sSteamMainCapsule","path":"sprites/sSteamMainCapsule/sSteamMainCapsule.yy",},"resourceVersion":"1.0","name":"62abd8e6-d935-4a26-98e7-2b9ddc393e74","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -66,6 +67,7 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d178b2c7-8bc6-4c17-bde5-525406b5fc0e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"40c2204d-fc50-40e7-80ce-6b4adfa68e61","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
