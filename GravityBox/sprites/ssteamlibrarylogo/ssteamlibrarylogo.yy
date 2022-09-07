@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 1279,
-  "bbox_top": 0,
-  "bbox_bottom": 719,
+  "bbox_left": 170,
+  "bbox_right": 1109,
+  "bbox_top": 145,
+  "bbox_bottom": 584,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -67,7 +67,7 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cf48de7a-3794-46b5-aa01-da6abb76dcad","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"cc9fbbc2-ba4f-4c0e-8002-6f3d4ecffdc5","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"cc9fbbc2-ba4f-4c0e-8002-6f3d4ecffdc5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
