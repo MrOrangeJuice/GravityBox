@@ -8,24 +8,41 @@ function CheckForAchievements(){
 		global.points300 = true;	
 		global.shopOwnership[15] = true;
 		achievementQueue[0] = true;
-	}
+		if (!steam_get_achievement("BoxLord"))
+		{
+			steam_set_achievement("BoxLord");
+		}
+    }
+
 	if(global.highScore >= 200 && !global.points200)
 	{
 		global.points200 = true;	
 		global.shopOwnership[14] = true;
 		achievementQueue[1] = true;
+		if (!steam_get_achievement("Gerald"))
+		{
+			steam_set_achievement("Gerald");
+		}
 	}
 	if(global.highScore >= 100 && !global.points100)
 	{
 		global.points100 = true;	
 		global.shopOwnership[13] = true;
 		achievementQueue[2] = true;
+		if (!steam_get_achievement("DogDays"))
+		{
+			steam_set_achievement("DogDays");
+		}
 	}
 	if(global.highScore >= 50 && !global.points50)
 	{
 		global.points50 = true;	
 		global.shopOwnership[12] = true;
 		achievementQueue[3] = true;
+		if (!steam_get_achievement("Groovy"))
+		{
+			steam_set_achievement("Groovy");
+		}
 	}
 	// Check for shop achievement
 	skinsOwned = 0;
@@ -41,6 +58,10 @@ function CheckForAchievements(){
 		global.shop5 = true;
 		global.shopOwnership[16] = true;
 		achievementQueue[4] = true;
+		if (!steam_get_achievement("BoxBot23"))
+		{
+			steam_set_achievement("BoxBot23");
+		}
 	}
 	// Check for mystery achievement
 	if(global.clickCount >= 10)
@@ -50,6 +71,10 @@ function CheckForAchievements(){
 			global.mysteryAchievement = true;
 			global.shopOwnership[17] = true;
 			achievementQueue[5] = true;
+			if (!steam_get_achievement("MrMystery"))
+			{
+				steam_set_achievement("MrMystery");
+			}
 		}
 		audio_play_sound(snd_Pop,5,false);
 		audio_play_sound(snd_Yay,5,false);

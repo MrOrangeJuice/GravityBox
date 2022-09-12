@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sSteamVerticalCapsule",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1cf32c4f-e22d-4403-8459-e61da114e0ee","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1cf32c4f-e22d-4403-8459-e61da114e0ee","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},"LayerId":{"name":"a02f65fb-04e9-4898-90ec-da85d974057a","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"1cf32c4f-e22d-4403-8459-e61da114e0ee","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},"LayerId":{"name":"af63f268-f866-4fe7-b6fe-1fa437fa44ab","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"1cf32c4f-e22d-4403-8459-e61da114e0ee","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},"LayerId":{"name":"4a546ff1-6cda-4a8c-9946-5a7ecf20c71f","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"1cf32c4f-e22d-4403-8459-e61da114e0ee","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},"LayerId":{"name":"e0ac482f-105b-44db-b213-a8ef3ab800e0","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSteamVerticalCapsule","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},"resourceVersion":"1.0","name":"1cf32c4f-e22d-4403-8459-e61da114e0ee","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1cf32c4f-e22d-4403-8459-e61da114e0ee",},
   ],
   "sequence": {
-    "spriteId": {"name":"sSteamVerticalCapsule","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sSteamVerticalCapsule",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"df3f994a-0081-49b6-b54f-388b22b2a1fa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1cf32c4f-e22d-4403-8459-e61da114e0ee","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"df3f994a-0081-49b6-b54f-388b22b2a1fa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1cf32c4f-e22d-4403-8459-e61da114e0ee","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -61,24 +61,15 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sSteamVerticalCapsule","path":"sprites/sSteamVerticalCapsule/sSteamVerticalCapsule.yy",},
-    "resourceVersion": "1.4",
-    "name": "sSteamVerticalCapsule",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"e0ac482f-105b-44db-b213-a8ef3ab800e0","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4a546ff1-6cda-4a8c-9946-5a7ecf20c71f","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"af63f268-f866-4fe7-b6fe-1fa437fa44ab","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e0ac482f-105b-44db-b213-a8ef3ab800e0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4a546ff1-6cda-4a8c-9946-5a7ecf20c71f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"af63f268-f866-4fe7-b6fe-1fa437fa44ab","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Marketing",
     "path": "folders/Sprites/Marketing.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sSteamVerticalCapsule",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
