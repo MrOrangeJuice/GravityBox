@@ -38,6 +38,24 @@ switch(playerNum)
 	case 11:
 		sprite_index = sPlayerInverse;
 		break;
+	case 12:
+		sprite_index = sPlayerGroovy;
+		break;
+	case 13:
+		sprite_index = sPlayerDog;
+		break;
+	case 14:
+		sprite_index = sPlayerGerald;
+		break;
+	case 15:
+		sprite_index = sPlayerCrown;
+		break;
+	case 16:
+		sprite_index = sPlayerRobot;
+		break;
+	case 17:
+		sprite_index = sPlayerMystery;
+		break;
 }
 
 // Apply graivty
@@ -59,3 +77,16 @@ if (place_meeting(x,y+vsp,oWall))
 }
 
 y = y + vsp;
+
+// Animation for Gerald
+if(playerNum == 14)
+{
+	if(place_meeting(x,y+1,oWall))
+	{
+		image_index = 4;	
+	}
+	else
+	{
+		image_index = 0;
+	}
+}

@@ -12,5 +12,7 @@ instance_create_layer(208,120,"UI",oRetryButton);
 instance_create_layer(128,120,"UI",oShopButton);
 instance_create_layer(288,120,"UI",oHomeButton);
 
+CheckForAchievements();
+
 // Save
 Save();

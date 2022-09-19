@@ -15,6 +15,14 @@ global.controller = false;
 
 global.music = true;
 
+// Achievements
+global.points50 = false;
+global.points100 = false;
+global.points200 = false;
+global.points300 = false;
+global.shop5 = false;
+global.mysteryAchievement = false;
+
 // Mouse
 global.mouseX = 0;
 global.mouseY = 0;
@@ -22,12 +30,17 @@ global.mouseControllerSpeed = 5;
 
 global.paused = false;
 
+global.easterScore = 0;
+
+// Title Easter Egg
+global.clickCount = 0;
+
 // Shop
 global.currentShopSelection = 0;
 global.playerSelection = 0;
-global.shopPrices = [0, 20, 50, 50, 50, 50, 100, 150, 100, 150, 150, 200];
-global.skinNames = ["Classic", "Perfect Blue", "Banana", "Grape", "Creamsicle", "Monochrome", "Super Citrus", "Fern", "Lil' Cupid", "DMGravity", "Player 2", "Opposite Day"];
-global.shopOwnership = [true,false,false,false,false,false,false,false,false,false,false,false];
+global.shopPrices = [0, 20, 50, 50, 50, 50, 100, 150, 100, 150, 150, 200, 100000, 100000, 100000, 100000, 100000, 100000];
+global.skinNames = ["Classic", "Perfect Blue", "Banana", "Grape", "Creamsicle", "Grayscale", "Super Citrus", "Fern", "Lil' Cupid", "DMGravity", "Player 2", "Opposite Day", "Groovy", "Dog Days", "Gerald", "Box Lord", "BoxBot 2.3", "Mr. Mystery"];
+global.shopOwnership = [true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false];
 global.buyHover = false;
 
 // Mobile
@@ -46,6 +59,9 @@ else
 {
 	Save();	
 }
+
+// Check for achievement in case of existing save file
+CheckForAchievements();
 
 // Set fullscreen if loaded in
 if(global.fullscreen)

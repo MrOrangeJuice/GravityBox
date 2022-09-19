@@ -111,3 +111,24 @@ if(!global.paused)
 
 	y = y + vsp;
 }
+
+// Animation for Gerald
+if(global.playerSelection == 14)
+{
+	if(gravityDir == "down" && place_meeting(x,y+1,oWall))
+	{
+		image_index = 4;	
+	}
+	else if(gravityDir == "up" && place_meeting(x,y-1,oWall))
+	{
+		image_index = 4;	
+	}
+	else if(gravityDir == "left" && place_meeting(x-1,y,oWall))
+	{
+		image_index = 4;	
+	}
+	else if(gravityDir == "right" && place_meeting(x+1,y,oWall))
+	{
+		image_index = 4;	
+	}
+}

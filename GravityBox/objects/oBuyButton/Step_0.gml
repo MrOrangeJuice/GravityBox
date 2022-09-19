@@ -40,6 +40,7 @@ if (position_meeting(global.mouseX,global.mouseY,oBuyButton) && global.mouse)
 				global.shopOwnership[global.currentShopSelection] = true;	
 				global.coins -= global.shopPrices[global.currentShopSelection];
 				audio_play_sound(snd_Buy,5,false);
+				CheckForAchievements();
 			}
 			else
 			{

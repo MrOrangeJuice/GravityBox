@@ -26,7 +26,20 @@ if (position_meeting(global.mouseX,global.mouseY,oDeleteSaveButton) && global.mo
 		global.coins = 0;
 		global.currentShopSelection = 0;
 		global.playerSelection = 0;
-		global.shopOwnership = [true,false,false,false,false,false,false,false,false,false,false,false];
+		global.shopOwnership = [true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false];
+		// Achievements
+		global.points50 = false;
+		global.points100 = false;
+		global.points200 = false;
+		global.points300 = false;
+		global.shop5 = false;
+		global.mysteryAchievement = false;
+		steam_clear_achievement("Groovy");
+		steam_clear_achievement("DogDays");
+		steam_clear_achievement("Gerald");
+		steam_clear_achievement("BoxLord");
+		steam_clear_achievement("BoxBot23");
+		steam_clear_achievement("MrMystery");
 		Save();
 	}
 }

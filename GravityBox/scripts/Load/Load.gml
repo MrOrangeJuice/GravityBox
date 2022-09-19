@@ -7,6 +7,12 @@ function Load(){
 	global.music = ini_read_real("savegame", "music", 0);
 	global.currentShopSelection = ini_read_real("savegame", "currentShopSelection", 0);
 	global.playerSelection = ini_read_real("savegame", "playerSelection", 0);
+	global.points50 = ini_read_real("savegame", "points50", 0);
+	global.points100 = ini_read_real("savegame", "points100", 0);
+	global.points200 = ini_read_real("savegame", "points200", 0);
+	global.points300 = ini_read_real("savegame", "points300", 0);
+	global.shop5 = ini_read_real("savegame", "shop5", 0);
+	global.mysteryAchievement = ini_read_real("savegame", "mysteryAchievement", 0);
 	global.shopOwnership[0] = ini_read_real("savegame", "shopOwnership0", 0);
 	global.shopOwnership[1] = ini_read_real("savegame", "shopOwnership1", 0);
 	global.shopOwnership[2] = ini_read_real("savegame", "shopOwnership2", 0);
@@ -19,5 +25,11 @@ function Load(){
 	global.shopOwnership[9] = ini_read_real("savegame", "shopOwnership9", 0);
 	global.shopOwnership[10] = ini_read_real("savegame", "shopOwnership10", 0);
 	global.shopOwnership[11] = ini_read_real("savegame", "shopOwnership11", 0);
+	global.shopOwnership[12] = ini_read_real("savegame", "shopOwnership12", 0);
+	global.shopOwnership[13] = ini_read_real("savegame", "shopOwnership13", 0);
+	global.shopOwnership[14] = ini_read_real("savegame", "shopOwnership14", 0);
+	global.shopOwnership[15] = ini_read_real("savegame", "shopOwnership15", 0);
+	global.shopOwnership[16] = ini_read_real("savegame", "shopOwnership16", 0);
+	global.shopOwnership[17] = ini_read_real("savegame", "shopOwnership17", 0);
 	ini_close();
 }

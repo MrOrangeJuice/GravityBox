@@ -19,6 +19,7 @@ if (position_meeting(global.mouseX,global.mouseY,oHomeButton) && global.mouse)
 	if(mouse_check_button_pressed(mb_left) || key_select)
 	{
 		global.buyHover = false;
+		audio_stop_sound(msc_Title);
 		audio_play_sound(snd_MenuSelect,5,false);
 		room_goto(rTitle);	
 	}

@@ -1,5 +1,7 @@
 /// @description Increment Time
 
+steam_update();
+
 key_left = 0;
 key_right = 0;
 key_down = 0;
@@ -131,3 +133,26 @@ if(room == rShop || (room == rGame && !global.alive))
 		room = rTitle;	
 	}
 }
+
+// Check for easter egg
+if(global.easterScore == 0)
+{
+	if(keyboard_check_pressed(ord("L"))) global.easterScore = 1;
+}
+
+if(global.easterScore == 1)
+{
+	if(keyboard_check_pressed(ord("B"))) global.easterScore = 2;
+}
+
+if(global.easterScore == 2)
+{
+	if(keyboard_check_pressed(ord("G"))) global.easterScore = 3;
+}
+if(global.easterScore == 3)
+{
+	audio_play_sound(snd_MenuSelect,5,false);
+	room_goto(rEasterEgg);
+}
+
+
