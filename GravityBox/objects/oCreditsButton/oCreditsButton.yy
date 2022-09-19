@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oOptionsButton",
+  "name": "oCreditsButton",
   "spriteId": {
-    "name": "sOptionsButton",
-    "path": "sprites/sOptionsButton/sOptionsButton.yy",
+    "name": "sCreditsButton",
+    "path": "sprites/sCreditsButton/sCreditsButton.yy",
   },
   "solid": false,
   "visible": true,
