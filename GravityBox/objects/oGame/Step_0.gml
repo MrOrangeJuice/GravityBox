@@ -1,6 +1,6 @@
 /// @description Increment Time
 
-steam_update();
+//steam_update();
 
 key_left = 0;
 key_right = 0;

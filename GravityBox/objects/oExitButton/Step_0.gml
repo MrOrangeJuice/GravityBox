@@ -20,7 +20,7 @@ if (position_meeting(global.mouseX,global.mouseY,oExitButton) && global.mouse)
 	if(mouse_check_button_pressed(mb_left) || key_select)
 	{
 		audio_play_sound(snd_MenuSelect,5,false);
-		steam_shutdown();
+		//steam_shutdown();
 		game_end();	
 	}
 }
