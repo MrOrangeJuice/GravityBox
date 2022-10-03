@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oY",
   "spriteId": {
     "name": "sY",
     "path": "sprites/sY/sY.yy",
@@ -31,8 +34,4 @@
     "name": "Letters",
     "path": "folders/Objects/Letters.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oY",
-  "tags": [],
-  "resourceType": "GMObject",
 }
