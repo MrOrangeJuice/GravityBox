@@ -155,6 +155,7 @@
     {"id":{"name":"snd_Pop","path":"sounds/snd_Pop/snd_Pop.yy",},"order":17,},
     {"id":{"name":"snd_Letter","path":"sounds/snd_Letter/snd_Letter.yy",},"order":16,},
     {"id":{"name":"sPlayerCrown","path":"sprites/sPlayerCrown/sPlayerCrown.yy",},"order":0,},
+    {"id":{"name":"oFakeCoin","path":"objects/oFakeCoin/oFakeCoin.yy",},"order":19,},
     {"id":{"name":"sPlayerHeartDeath","path":"sprites/sPlayerHeartDeath/sPlayerHeartDeath.yy",},"order":1,},
     {"id":{"name":"sExitButton","path":"sprites/sExitButton/sExitButton.yy",},"order":0,},
     {"id":{"name":"sG","path":"sprites/sG/sG.yy",},"order":0,},
