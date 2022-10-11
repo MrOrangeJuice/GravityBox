@@ -87,6 +87,7 @@
     {"id":{"name":"sPlayer24","path":"sprites/sPlayer24/sPlayer24.yy",},"order":39,},
     {"id":{"name":"oOptionsButton","path":"objects/oOptionsButton/oOptionsButton.yy",},"order":2,},
     {"id":{"name":"sBGNew","path":"sprites/sBGNew/sBGNew.yy",},"order":12,},
+    {"id":{"name":"sUpArrowNew","path":"sprites/sUpArrowNew/sUpArrowNew.yy",},"order":4,},
     {"id":{"name":"rOptions","path":"rooms/rOptions/rOptions.yy",},"order":2,},
     {"id":{"name":"oFullscreenButton","path":"objects/oFullscreenButton/oFullscreenButton.yy",},"order":5,},
     {"id":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},"order":1,},
@@ -300,10 +301,10 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.8.1.37",
+    "IDEVersion": "2022.9.0.49",
   },
 }
