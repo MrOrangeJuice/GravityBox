@@ -2,7 +2,7 @@
 // Set Random Direction
 direction = random_range(0, 360);
 // Set speed
-currentSpeed = 1; 
+currentSpeed = 0.5; 
 
 // Set sprite if player is using inverse skin
 if(global.playerSelection == 11)

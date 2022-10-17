@@ -14,6 +14,7 @@
     {"id":{"name":"sTitleNewShadedAndroid","path":"sprites/sTitleNewShadedAndroid/sTitleNewShadedAndroid.yy",},"order":43,},
     {"id":{"name":"s300Points","path":"sprites/s300Points/s300Points.yy",},"order":1,},
     {"id":{"name":"sEnemyPlayer","path":"sprites/sEnemyPlayer/sEnemyPlayer.yy",},"order":2,},
+    {"id":{"name":"sRightArrowNew","path":"sprites/sRightArrowNew/sRightArrowNew.yy",},"order":7,},
     {"id":{"name":"sPlayerPurpleDeath","path":"sprites/sPlayerPurpleDeath/sPlayerPurpleDeath.yy",},"order":1,},
     {"id":{"name":"sT","path":"sprites/sT/sT.yy",},"order":5,},
     {"id":{"name":"oBuyButton","path":"objects/oBuyButton/oBuyButton.yy",},"order":8,},
@@ -63,6 +64,7 @@
     {"id":{"name":"sEquippedButton","path":"sprites/sEquippedButton/sEquippedButton.yy",},"order":14,},
     {"id":{"name":"snd_CountDown","path":"sounds/snd_CountDown/snd_CountDown.yy",},"order":11,},
     {"id":{"name":"sPlayerBlueIcon","path":"sprites/sPlayerBlueIcon/sPlayerBlueIcon.yy",},"order":1,},
+    {"id":{"name":"sDownArrowNew","path":"sprites/sDownArrowNew/sDownArrowNew.yy",},"order":5,},
     {"id":{"name":"sDeleteSaveButton","path":"sprites/sDeleteSaveButton/sDeleteSaveButton.yy",},"order":8,},
     {"id":{"name":"snd_MenuMove","path":"sounds/snd_MenuMove/snd_MenuMove.yy",},"order":3,},
     {"id":{"name":"oB","path":"objects/oB/oB.yy",},"order":8,},
@@ -147,6 +149,7 @@
     {"id":{"name":"oPlayerDeath","path":"objects/oPlayerDeath/oPlayerDeath.yy",},"order":5,},
     {"id":{"name":"sPlayerOrangeIcon","path":"sprites/sPlayerOrangeIcon/sPlayerOrangeIcon.yy",},"order":3,},
     {"id":{"name":"sSteamSmallCapsule","path":"sprites/sSteamSmallCapsule/sSteamSmallCapsule.yy",},"order":1,},
+    {"id":{"name":"sLeftArrowNew","path":"sprites/sLeftArrowNew/sLeftArrowNew.yy",},"order":6,},
     {"id":{"name":"sPlayerHeartIcon","path":"sprites/sPlayerHeartIcon/sPlayerHeartIcon.yy",},"order":11,},
     {"id":{"name":"sPlayerGray","path":"sprites/sPlayerGray/sPlayerGray.yy",},"order":0,},
     {"id":{"name":"msc_Pattlebaddle","path":"sounds/msc_Pattlebaddle/msc_Pattlebaddle.yy",},"order":0,},
@@ -305,6 +308,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.9.0.49",
+    "IDEVersion": "2022.9.1.51",
   },
 }
