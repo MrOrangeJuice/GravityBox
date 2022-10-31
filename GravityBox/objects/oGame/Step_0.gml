@@ -76,7 +76,7 @@ if(device_mouse_check_button(0, mb_left))
 
 if(prevMousePosX != global.mouseX || prevMousePosY != global.mouseY)
 {
-	//global.mouse = true;
+	global.mouse = true;
 }
 
 if(prevActualMousePosX != mouse_x || prevActualMousePosY != mouse_y)

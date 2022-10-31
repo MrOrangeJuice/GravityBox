@@ -1,7 +1,6 @@
 /// @description Apply Physics
 
 // Get inputs
-/*
 key_gravleft = keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"));
 key_gravright = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"));
 key_gravdown = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
@@ -39,12 +38,12 @@ if (gamepad_axis_value(0,gp_axislv) < -0.4 || gamepad_button_check(0,gp_padu) ||
 	global.controller = 1;
 	global.mouse = 0;
 }
-*/
 
-if(global.grav == "left") gravityDir = "left";
-if(global.grav == "right") gravityDir = "right";
-if(global.grav == "down") gravityDir = "down";
-if(global.grav == "up") gravityDir = "up";
+
+if(key_gravleft) gravityDir = "left";
+if(key_gravright) gravityDir = "right";
+if(key_gravdown) gravityDir = "down";
+if(key_gravup) gravityDir = "up";
 
 if(!global.paused)
 {
