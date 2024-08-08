@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "Restart",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "Scripts",
     "path": "folders/Scripts.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Restart",
-  "tags": [],
-  "resourceType": "GMScript",
 }
